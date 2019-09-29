@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="" />
+    <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="1修改说明">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestRunner.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="391">
+              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -154,7 +157,6 @@
         <option value="$PROJECT_DIR$/framework/RWExcel.py" />
         <option value="$PROJECT_DIR$/test_case/test_2.py" />
         <option value="$PROJECT_DIR$/framework/WriteData.py" />
-        <option value="$PROJECT_DIR$/TestRunner.py" />
         <option value="$PROJECT_DIR$/framework/WExcel.py" />
         <option value="$PROJECT_DIR$/framework/GetExceltolist.py" />
         <option value="$PROJECT_DIR$/framework/RExcetodicl.py" />
@@ -162,10 +164,11 @@
         <option value="$PROJECT_DIR$/test_case/test_1.py" />
         <option value="$PROJECT_DIR$/../test/run.py" />
         <option value="$PROJECT_DIR$/framework/RequestAPI.py" />
+        <option value="$PROJECT_DIR$/TestRunner.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="99" />
     <option name="y" value="79" />
     <option name="width" value="1545" />
@@ -181,8 +184,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Test_framework_v1.7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_framework_v1.7" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="b2602c69:ProjectViewProjectNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,7 +393,16 @@
       <workItem from="1569653069358" duration="5853000" />
       <workItem from="1569719109698" duration="624000" />
       <workItem from="1569721558062" duration="46000" />
+      <workItem from="1569721956437" duration="810000" />
     </task>
+    <task id="LOCAL-00001" summary="1修改说明">
+      <created>1569722564416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569722564416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -426,7 +438,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83068000" />
+    <option name="totallyTimeSpent" value="83878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,8 +451,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="79" width="1545" height="836" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17441078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643097" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -468,6 +481,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1修改说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="1修改说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -611,16 +628,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../test/run.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/test_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/RequestAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -643,8 +650,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state relative-caret-position="391">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
