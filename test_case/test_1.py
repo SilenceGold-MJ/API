@@ -1,7 +1,6 @@
 import unittest
 from framework.logger import Logger
 import ddt
-import requests
 from framework.FindValue import FindValue
 from framework.Method import Merhod
 from framework.GetExceltolist import GetExceltolist
