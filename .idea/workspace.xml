@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="更新">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestRunner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (1).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (1).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (10).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (10).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (2).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (2).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (3).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (3).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (4).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (4).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (5).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (5).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (6).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (6).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (7).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (7).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (8).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (8).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (9).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (9).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_1.py" afterDir="false" />
-    </list>
+    <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="updata" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="207">
+              <caret line="9" lean-forward="true" selection-end-line="31" />
               <folding>
                 <element signature="e#221#230#0" expanded="true" />
               </folding>
@@ -407,7 +393,7 @@
       <workItem from="1569653069358" duration="5853000" />
       <workItem from="1569719109698" duration="624000" />
       <workItem from="1569721558062" duration="46000" />
-      <workItem from="1569721956437" duration="2096000" />
+      <workItem from="1569721956437" duration="2946000" />
     </task>
     <task id="LOCAL-00001" summary="1修改说明">
       <created>1569722564416</created>
@@ -437,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569723781576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updata">
+      <created>1569724200127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569724200127</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -473,7 +466,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85164000" />
+    <option name="totallyTimeSpent" value="86014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -486,14 +479,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="99" y="79" width="1545" height="836" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643097" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17643097" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920793" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42022792" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42022792" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -547,7 +539,8 @@
     <MESSAGE value="1修改说明" />
     <MESSAGE value="...." />
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="updata" />
+    <option name="LAST_COMMIT_MESSAGE" value="updata" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,7 +556,7 @@
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test_test_1.coverage" NAME="Unittests for test_1.Test.test_1 Coverage Results" MODIFIED="1569655403436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Test_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1569427215103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_in_RequestAPI_py.coverage" NAME="Unittests in RequestAPI.py Coverage Results" MODIFIED="1569231494133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
-    <SUITE FILE_PATH="coverage/API$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1569724098341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/API$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1569744647216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_framework$ParseExcelUtil.coverage" NAME="ParseExcelUtil Coverage Results" MODIFIED="1569422399080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../untitled/untitled" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Relicl.coverage" NAME="Unittests for test_1.Relicl Coverage Results" MODIFIED="1569216699939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test.coverage" NAME="Unittests for test_1.Test Coverage Results" MODIFIED="1569503402710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
@@ -724,8 +717,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-end-line="31" />
           <folding>
             <element signature="e#221#230#0" expanded="true" />
           </folding>

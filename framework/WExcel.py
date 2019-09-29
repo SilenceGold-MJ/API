@@ -20,5 +20,6 @@ class WExcel():
         try:
             wb.save(path_ex)
             #logger.info('测试数据保存成功！！！')
-        except:
+        except Exception as e:
+            logger.error(e)
             logger.error('保存失败，可能Excel文件未关闭，请关闭Excel文件后重新测试')

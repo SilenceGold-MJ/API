@@ -14,5 +14,7 @@ class Merhod():
                 APIdata=RequestAPI.post(self,url, param,headers, testname)
                 return APIdata
                 #RequestAPI.writedata(API_data, expect, sheet1, row, testname)
-        except:
+
+        except Exception as e:
+            logger.error(e)
             logger.error('《' + str(testname) + '》项异常，请检查网络、接口地址、入参是否正常！！！')

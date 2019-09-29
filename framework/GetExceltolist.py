@@ -10,7 +10,8 @@ class GetExceltolist():
             for i in PathExcel.path_excel(self):
                 data = RExcetodicl.RExcetodicl(self, i)
                 datalist.extend(data["data"])
-        except:
+        except Exception as e:
+            logger.error(e)
             logger.error(i+"用例Excel文件可能存在异常,或者Excel未关闭！！！")
 
         return datalist

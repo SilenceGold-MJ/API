@@ -47,9 +47,11 @@ class RWExcel():
 
                 #WriteData.writedata(self, PM, expect, sheet1, row, testname)
 
-            except:
+
+            except Exception as e:
+                logger.error(e)
                 logger.error('《' + str(testname) + '》项，写“error”数据！！！')
-                sheet1.cell(row=row, column=7, value='《' + str(testname) + '》项异常，请检查网络、接口地址、入参是否正常！！！')  # 响应结果
+                sheet1.cell(row=row, column=7, value=e)  # 响应结果
                 sheet1.cell(row=row, column=8, value='error')  # 请求时间
                 sheet1.cell(row=row, column=9, value='error')  # 状态码
                 sheet1.cell(row=row, column=10, value='error')  # 判断通过
@@ -59,7 +61,9 @@ class RWExcel():
         try:
             wb.save(path_ex)
             #logger.info('测试数据保存成功！！！')
-        except:
+
+        except Exception as e:
+            logger.error(e)
             logger.error('保存失败，可能Excel文件未关闭，请关闭Excel文件后重新测试')
         return (
             {
