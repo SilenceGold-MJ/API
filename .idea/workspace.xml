@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="1修改说明">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (1).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (1).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (10).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (10).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (2).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (2).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (3).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (3).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (4).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (4).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (5).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (5).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (6).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (6).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (7).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (7).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (8).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (8).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (9).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (9).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +89,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+            <state relative-caret-position="207">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#221#230#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,11 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/test_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="46">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -161,14 +170,14 @@
         <option value="$PROJECT_DIR$/framework/GetExceltolist.py" />
         <option value="$PROJECT_DIR$/framework/RExcetodicl.py" />
         <option value="$PROJECT_DIR$/framework/Method.py" />
-        <option value="$PROJECT_DIR$/test_case/test_1.py" />
         <option value="$PROJECT_DIR$/../test/run.py" />
         <option value="$PROJECT_DIR$/framework/RequestAPI.py" />
         <option value="$PROJECT_DIR$/TestRunner.py" />
+        <option value="$PROJECT_DIR$/test_case/test_1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="99" />
     <option name="y" value="79" />
     <option name="width" value="1545" />
@@ -393,7 +402,7 @@
       <workItem from="1569653069358" duration="5853000" />
       <workItem from="1569719109698" duration="624000" />
       <workItem from="1569721558062" duration="46000" />
-      <workItem from="1569721956437" duration="810000" />
+      <workItem from="1569721956437" duration="881000" />
     </task>
     <task id="LOCAL-00001" summary="1修改说明">
       <created>1569722564416</created>
@@ -402,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569722564416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1修改说明">
+      <created>1569722784808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569722784808</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -438,7 +454,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83878000" />
+    <option name="totallyTimeSpent" value="83949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +469,7 @@
     <frame x="99" y="79" width="1545" height="836" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643097" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17643097" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -462,14 +478,14 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329849" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4996633" weight="0.32905984" />
       <window_info anchor="bottom" id="运行" order="7" weight="0.38385093" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329849" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4983165" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989899" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016835" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="调试" order="12" weight="0.32900944" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.329849" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.4996633" weight="0.32905984" />
       <window_info anchor="bottom" id="找到" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -500,6 +516,7 @@
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test_test_1.coverage" NAME="Unittests for test_1.Test.test_1 Coverage Results" MODIFIED="1569655403436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Test_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1569427215103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_in_RequestAPI_py.coverage" NAME="Unittests in RequestAPI.py Coverage Results" MODIFIED="1569231494133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/API$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1569722824482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_framework$ParseExcelUtil.coverage" NAME="ParseExcelUtil Coverage Results" MODIFIED="1569422399080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../untitled/untitled" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Relicl.coverage" NAME="Unittests for test_1.Relicl Coverage Results" MODIFIED="1569216699939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test.coverage" NAME="Unittests for test_1.Test Coverage Results" MODIFIED="1569503402710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
@@ -648,19 +665,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestRunner.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        <state relative-caret-position="46">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_1.py">
+    <entry file="file://$PROJECT_DIR$/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#221#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
