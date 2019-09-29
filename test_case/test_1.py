@@ -32,7 +32,9 @@ class Test(unittest.TestCase):
         self.assertEqual(FindValue.find_value(self,PM["Response_Data"],data["expect"]),True)
 
 if __name__=='__main__':
+
+    # unittest.main() # 使用main()直接运行时，将按case的名称顺序执行
     suite=unittest.TestSuite()
-    unittest.TextTestRunner().run(suite)
-
-
+    #suite.addTest(Relicl("test_entrance"))# 将需要执行的case添加到Test Suite中，没有添加的不会被执行
+    #suite.addTest(Relicl("test_entrance"))
+    unittest.TextTestRunner().run(suite)  # 将根据case添加的先后顺序执行

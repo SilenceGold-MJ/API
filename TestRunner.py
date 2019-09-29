@@ -1,6 +1,6 @@
 """
 version: 1.7
-test_1,将所有表格中的数据读取到字典中，添加至每条用例执行，测试结果填写到Excel中，并将测试结果展示到Html报告中（合二为一）。
+test_1将所有表格中的数据读取到字典中，添加至每条用例执行，测试结果填写到Excel中，并将测试结果展示到Html报告中（合二为一）。
 """
 #import HTMLTestRunner
 import os
