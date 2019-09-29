@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/relic_test_framework$Unittests_for_test_relicl_Relicl_test_entrance.coverage" NAME="Unittests for test_relicl.Relicl.test_entrance Coverage Results" MODIFIED="1562315490299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$Unittests_for_lock_Lock.coverage" NAME="Unittests for lock.Lock Coverage Results" MODIFIED="1562315920489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$filename.coverage" NAME="filename Coverage Results" MODIFIED="1562901220865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/20190702识别率测试/小图/文物识别准确率测试20190705/testprct" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$GegName.coverage" NAME="GegName Coverage Results" MODIFIED="1562831077619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_test_baidu_search_BaiduSearch_test_entrance.coverage" NAME="Unittests for test_baidu_search.BaiduSearch.test_entrance Coverage Results" MODIFIED="1555057589506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1554368006331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../project/diseasedetection" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_test_tunnel_BaiduSearch.coverage" NAME="Unittests for test_tunnel.BaiduSearch Coverage Results" MODIFIED="1555318208086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1562815758582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/automation_test_framework$tunnel.coverage" NAME="tunnel Coverage Results" MODIFIED="1555048446164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/uiautomator2/project/python3.7/sudao" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_test_tunnel_Tunnel.coverage" NAME="Unittests for test_tunnel.Tunnel Coverage Results" MODIFIED="1555311943691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$Unittests_in_test_relicl_py.coverage" NAME="Unittests in test_relicl.py Coverage Results" MODIFIED="1558583300487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$opencv1__1_.coverage" NAME="opencv1 (1) Coverage Results" MODIFIED="1567480621508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/uiautomator2/project/python3.7/huadong" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$requests_test.coverage" NAME="requests_test Coverage Results" MODIFIED="1562921978042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/20190702识别率测试/小图/testprct" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$fps_detect.coverage" NAME="fps_detect Coverage Results" MODIFIED="1567406878296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/python3/帧率" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$urllib_test.coverage" NAME="urllib_test Coverage Results" MODIFIED="1562924183434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_test_tunnel_Btunnel.coverage" NAME="Unittests for test_tunnel.Btunnel Coverage Results" MODIFIED="1555315255706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$Excel.coverage" NAME="Excel Coverage Results" MODIFIED="1552535314554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_sliding_Sliding_test_sliding.coverage" NAME="Unittests for sliding.Sliding.test_sliding Coverage Results" MODIFIED="1555402839471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1555552381165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$test_get_page_title.coverage" NAME="test_get_page_title Coverage Results" MODIFIED="1552466807077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$TestRunner__1_.coverage" NAME="TestRunner (1) Coverage Results" MODIFIED="1555061214624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_test_tunnel_BTunnel.coverage" NAME="Unittests for test_tunnel.BTunnel Coverage Results" MODIFIED="1555406603632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1554198127305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/relic_test_framework$filename__1_.coverage" NAME="filename (1) Coverage Results" MODIFIED="1562904386584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/20190702识别率测试/小图/testprct" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$CulturalRelicIdentify.coverage" NAME="CulturalRelicIdentify Coverage Results" MODIFIED="1554703521927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/relic_test_framework$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1567396418841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/uiautomator2/project/python3.7/huadong" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$get_cpu.coverage" NAME="get_cpu Coverage Results" MODIFIED="1567560340027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/python3/帧率" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$tunnel__1_.coverage" NAME="tunnel (1) Coverage Results" MODIFIED="1555056232683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_login_Login_test_login.coverage" NAME="Unittests for login.Login.test_login Coverage Results" MODIFIED="1555062551088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pageobjects" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_in_test_baidu_search_py.coverage" NAME="Unittests in test_baidu_search.py Coverage Results" MODIFIED="1555059445006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_test_tunnel_Xtunnel.coverage" NAME="Unittests for test_tunnel.Xtunnel Coverage Results" MODIFIED="1555315116809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1567156554824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_test_get_page_title_GetPageTitle.coverage" NAME="Unittests for test_get_page_title.GetPageTitle Coverage Results" MODIFIED="1555055981409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$fps_detect_python3_0_.coverage" NAME="fps_detect(python3.0) Coverage Results" MODIFIED="1567407250431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/python3/帧率" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$requests_test__1_.coverage" NAME="requests_test (1) Coverage Results" MODIFIED="1562924091086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/20190702识别率测试/小图/base64" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$Clock__1_.coverage" NAME="Clock (1) Coverage Results" MODIFIED="1567403784087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/uiautomator2/project/python3.7/huadong" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$Unittests_for_location_Location.coverage" NAME="Unittests for location.Location Coverage Results" MODIFIED="1558585399855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_in_test_tunnel_py.coverage" NAME="Unittests in test_tunnel.py Coverage Results" MODIFIED="1555397487780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$StartRun.coverage" NAME="StartRun Coverage Results" MODIFIED="1555049235484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/uiautomator2/project/python3.7/sudao/tunnel" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1555052408645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1562579855600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/relic_test_framework$with_json.coverage" NAME="with_json Coverage Results" MODIFIED="1562915078693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/relic_test_framework$fps_detect__python3_0_.coverage" NAME="fps_detect_(python3.0) Coverage Results" MODIFIED="1567407899538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/12/帧率" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$opencv1.coverage" NAME="opencv1 Coverage Results" MODIFIED="1567392503606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/uiautomator2/project/python3.7/滑动验证" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$get_memcpu.coverage" NAME="get_memcpu Coverage Results" MODIFIED="1567577082233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/python3/帧率" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$Excel__1_.coverage" NAME="Excel (1) Coverage Results" MODIFIED="1552537542171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1554368707269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../project/diseasedetection" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_sliding_Sliding.coverage" NAME="Unittests for sliding.Sliding Coverage Results" MODIFIED="1555468935684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1555637838562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/uiautomator2/project/python3.7/sudao" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$Clock.coverage" NAME="Clock Coverage Results" MODIFIED="1567575020300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/uiautomator2/project/python3.7/huadong" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$filename__2_.coverage" NAME="filename (2) Coverage Results" MODIFIED="1562902922805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/20190702识别率测试/小图" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1554701978399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../project/diseasedetection" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$test_get.coverage" NAME="test_get Coverage Results" MODIFIED="1562816423318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/automation_test_framework$test_baidu_search.coverage" NAME="test_baidu_search Coverage Results" MODIFIED="1552466761964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1567391548007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/uiautomator2/project/python3.7/滑动验证" />
+    <SUITE FILE_PATH="coverage/automation_test_framework$TestRunner__1_.coverage" NAME="TestRunner (1) Coverage Results" MODIFIED="1554363134894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Identify" />
+    <SUITE FILE_PATH="coverage/tunnel_test_framework$Unittests_for_test_baidu_search_BaiduSearch.coverage" NAME="Unittests for test_baidu_search.BaiduSearch Coverage Results" MODIFIED="1555059527439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$get_mem.coverage" NAME="get_mem Coverage Results" MODIFIED="1567494309450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/python3/帧率" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$DentificationTest.coverage" NAME="DentificationTest Coverage Results" MODIFIED="1562836694060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestRunner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../test_get.py" />
+        <option value="$PROJECT_DIR$/../GegName.py" />
+        <option value="$PROJECT_DIR$/../DentificationTest.py" />
+        <option value="$PROJECT_DIR$/../test2.py" />
+        <option value="$PROJECT_DIR$/../requests_test.py" />
+        <option value="D:/20190702识别率测试/小图/文物识别准确率测试20190705/testprct/requests_test.py" />
+        <option value="D:/20190702识别率测试/小图/文物识别准确率测试20190705/testprct/filename.py" />
+        <option value="D:/20190702识别率测试/小图/filename.py" />
+        <option value="D:/20190702识别率测试/小图/testprct/filename.py" />
+        <option value="D:/20190702识别率测试/小图/testprct/requests_test.py" />
+        <option value="D:/20190702识别率测试/小图/base64/requests_test.py" />
+        <option value="$PROJECT_DIR$/../urllib_test.py" />
+        <option value="$PROJECT_DIR$/modules/entrance.py" />
+        <option value="F:/uiautomator2/project/python3.7/Clock.py" />
+        <option value="F:/uiautomator2/project/python3.7/滑动验证/Clock.py" />
+        <option value="F:/uiautomator2/project/python3.7/滑动验证/test.py" />
+        <option value="F:/uiautomator2/project/python3.7/滑动验证/opencv1.py" />
+        <option value="F:/uiautomator2/project/python3.7/huadong/test.py" />
+        <option value="F:/python3/帧率/fps_detect.py" />
+        <option value="F:/python3/帧率/fps_detect(python3.0).py" />
+        <option value="F:/python3/帧率/fps_detect_(python3.0).py" />
+        <option value="F:/python3/帧率/get_mem.py" />
+        <option value="F:/python3/帧率/get_cpu.py" />
+        <option value="F:/uiautomator2/project/python3.7/huadong/opencv1.py" />
+        <option value="F:/uiautomator2/project/python3.7/huadong/Clock.py" />
+        <option value="F:/python3/帧率/get_memcpu.py" />
+        <option value="$PROJECT_DIR$/testsuites/test_relicl.py" />
+        <option value="$PROJECT_DIR$/framework/logger.py" />
+        <option value="$PROJECT_DIR$/../接口测试/test_sfs.py" />
+        <option value="$PROJECT_DIR$/framework/ReadExel.py" />
+        <option value="$PROJECT_DIR$/framework/PathExcel.py" />
+        <option value="$PROJECT_DIR$/framework/FindValue.py" />
+        <option value="$PROJECT_DIR$/../untitled/untitled/ParseExcelUtil.py" />
+        <option value="$PROJECT_DIR$/../test/45.py" />
+        <option value="$PROJECT_DIR$/../test/test.py" />
+        <option value="$PROJECT_DIR$/../test/RWExcel.py" />
+        <option value="$PROJECT_DIR$/../test/dz1.py" />
+        <option value="$PROJECT_DIR$/test_case1/test_1.py" />
+        <option value="$PROJECT_DIR$/../test/dz2.py" />
+        <option value="$PROJECT_DIR$/../test/sdgsd.py" />
+        <option value="$PROJECT_DIR$/framework/RWExcel.py" />
+        <option value="$PROJECT_DIR$/test_case/test_2.py" />
+        <option value="$PROJECT_DIR$/framework/WriteData.py" />
+        <option value="$PROJECT_DIR$/TestRunner.py" />
+        <option value="$PROJECT_DIR$/framework/WExcel.py" />
+        <option value="$PROJECT_DIR$/framework/GetExceltolist.py" />
+        <option value="$PROJECT_DIR$/framework/RExcetodicl.py" />
+        <option value="$PROJECT_DIR$/framework/Method.py" />
+        <option value="$PROJECT_DIR$/test_case/test_1.py" />
+        <option value="$PROJECT_DIR$/../test/run.py" />
+        <option value="$PROJECT_DIR$/framework/RequestAPI.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="99" />
+    <option name="y" value="79" />
+    <option name="width" value="1545" />
+    <option name="height" value="836" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Test_framework_v1.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_framework_v1.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\requests\Test_framework\test_case" />
+      <recent name="F:\项目\文物\文物识别小程序\python\relic_test_framework\framework" />
+      <recent name="D:\Python\uiautomator2\project\python3.7\sudao\tunnel_test_framework\framework" />
+      <recent name="D:\Python\uiautomator2\project\python3.7\sudao\tunnel_test_framework\modules" />
+      <recent name="C:\Users\Anthony\PycharmProjects\automation_test_framework\tools" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.TestRunner">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="automation_test_framework" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="RWExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation_test_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/RWExcel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation_test_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestRunner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation_test_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sdgsd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation_test_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/sdgsd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_1.Test.test_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="automation_test_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_1.Test.test_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.TestRunner" />
+      <item itemvalue="Python.sdgsd" />
+      <item itemvalue="Python.RWExcel" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python tests.Unittests for test_1.Test.test_1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.TestRunner" />
+        <item itemvalue="Python tests.Unittests for test_1.Test.test_1" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.RWExcel" />
+        <item itemvalue="Python.sdgsd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="" />
+      <created>1492171939858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1492171939858</updated>
+      <workItem from="1569210810405" duration="190000" />
+      <workItem from="1569211177982" duration="29147000" />
+      <workItem from="1569326783327" duration="974000" />
+      <workItem from="1569328190444" duration="5339000" />
+      <workItem from="1569380752527" duration="3627000" />
+      <workItem from="1569396898362" duration="357000" />
+      <workItem from="1569412172610" duration="1508000" />
+      <workItem from="1569413698721" duration="13671000" />
+      <workItem from="1569499994516" duration="12346000" />
+      <workItem from="1569589041671" duration="2275000" />
+      <workItem from="1569591406098" duration="3026000" />
+      <workItem from="1569645356589" duration="3709000" />
+      <workItem from="1569652685434" duration="376000" />
+      <workItem from="1569653069358" duration="5853000" />
+      <workItem from="1569719109698" duration="624000" />
+      <workItem from="1569721558062" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_1_py - 2019.09.24 at 10h 03m 42s.xml">
+      <configuration name="Unittests in test_1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_1_py - 2019.09.26 at 20h 56m 35s.xml">
+      <configuration name="Unittests in test_1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1_Test - 2019.09.26 at 21h 08m 51s.xml">
+      <configuration name="Unittests for test_1.Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1_Test - 2019.09.26 at 21h 10m 02s.xml">
+      <configuration name="Unittests for test_1.Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_1_py - 2019.09.26 at 21h 10m 45s.xml">
+      <configuration name="Unittests in test_1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1_Test_test_1 - 2019.09.26 at 21h 17m 37s.xml">
+      <configuration name="Unittests for test_1.Test.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1_Test_test_1 - 2019.09.26 at 22h 35m 18s.xml">
+      <configuration name="Unittests for test_1.Test.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1_Test_test_1 - 2019.09.26 at 22h 46m 57s.xml">
+      <configuration name="Unittests for test_1.Test.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1_Test_test_1 - 2019.09.28 at 15h 22m 24s.xml">
+      <configuration name="Unittests for test_1.Test.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1_Test_test_1 - 2019.09.28 at 15h 23m 23s.xml">
+      <configuration name="Unittests for test_1.Test.test_1" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="83068000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="99" y="79" width="1545" height="836" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17441078" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920793" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42022792" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329849" />
+      <window_info anchor="bottom" id="运行" order="7" weight="0.38385093" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329849" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="12" weight="0.32900944" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.329849" />
+      <window_info anchor="bottom" id="找到" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties exception="BaseException" />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Test_framework$test_sfs.coverage" NAME="test_sfs Coverage Results" MODIFIED="1569228122207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../接口测试" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test_test_1.coverage" NAME="Unittests for test_1.Test.test_1 Coverage Results" MODIFIED="1569655403436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/Test_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1569427215103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_in_RequestAPI_py.coverage" NAME="Unittests in RequestAPI.py Coverage Results" MODIFIED="1569231494133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/Test_framework$ParseExcelUtil.coverage" NAME="ParseExcelUtil Coverage Results" MODIFIED="1569422399080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../untitled/untitled" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Relicl.coverage" NAME="Unittests for test_1.Relicl Coverage Results" MODIFIED="1569216699939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test.coverage" NAME="Unittests for test_1.Test Coverage Results" MODIFIED="1569503402710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/Test_framework$RWExcel.coverage" NAME="RWExcel Coverage Results" MODIFIED="1569508602188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/Test_framework$run.coverage" NAME="run Coverage Results" MODIFIED="1569654855565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/Test_framework$dz2.coverage" NAME="dz2 Coverage Results" MODIFIED="1569503214878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/Test_framework$logger.coverage" NAME="logger Coverage Results" MODIFIED="1569212303023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Relicl_test_1.coverage" NAME="Unittests for test_1.Relicl.test_1 Coverage Results" MODIFIED="1569225758874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/Test_framework$TestRunner__1_.coverage" NAME="TestRunner (1) Coverage Results" MODIFIED="1569382564522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/relic_test_framework$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1569211011276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_relicl_Relicl.coverage" NAME="Unittests for test_relicl.Relicl Coverage Results" MODIFIED="1569211328480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/Test_framework$test_excel.coverage" NAME="test_读excel请求接口 Coverage Results" MODIFIED="1569215401310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../接口测试" />
+    <SUITE FILE_PATH="coverage/Test_framework$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1569719501219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_RequestAPI_RequestAPI.coverage" NAME="Unittests for RequestAPI.RequestAPI Coverage Results" MODIFIED="1569230715293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/Test_framework$dz1.coverage" NAME="dz1 Coverage Results" MODIFIED="1569501777882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_in_test_1_py.coverage" NAME="Unittests in test_1.py Coverage Results" MODIFIED="1569503445057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/Test_framework$sdgsd.coverage" NAME="sdgsd Coverage Results" MODIFIED="1569506287650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/framework/watcherson.py" />
+    <entry file="file://$PROJECT_DIR$/framework/sliding.py" />
+    <entry file="file://$PROJECT_DIR$/framework/picturetest.py" />
+    <entry file="file://$PROJECT_DIR$/framework/lock.py" />
+    <entry file="file://$PROJECT_DIR$/modules/entrance.py" />
+    <entry file="file://F:/uiautomator2/project/python3.7/Clock.py" />
+    <entry file="file://F:/uiautomator2/project/python3.7/滑动验证/opencv1.py" />
+    <entry file="file://F:/uiautomator2/project/python3.7/滑动验证/test.py" />
+    <entry file="file://F:/uiautomator2/project/python3.7/滑动验证/Clock.py" />
+    <entry file="file://D:/../hi，我在这儿/用例编写进度/资料包/滑动流畅性-帧率/fps_detect.py" />
+    <entry file="file://F:/python3/帧率/fps_detect.py" />
+    <entry file="file://F:/python3/帧率/fps_detect(python3.0).py" />
+    <entry file="file://F:/12/帧率/fps_detect_(python3.0).py" />
+    <entry file="file://F:/python3/帧率/fps_detect_(python3.0).py" />
+    <entry file="file://F:/python3/帧率/get_mem.py" />
+    <entry file="file://F:/uiautomator2/project/python3.7/huadong/Clock.py" />
+    <entry file="file://F:/uiautomator2/project/python3.7/huadong/test.py" />
+    <entry file="file://F:/uiautomator2/project/python3.7/huadong/opencv1.py" />
+    <entry file="file://F:/python3/帧率/get_memcpu.py" />
+    <entry file="file://F:/python3/帧率/get_cpu.py" />
+    <entry file="file://$PROJECT_DIR$/testsuites/TestRunner.py" />
+    <entry file="file://F:/项目/文物/文物识别小程序/python/CulturalRelicIdentify.py" />
+    <entry file="file://F:/项目/文物/文物识别小程序/python/relic_test_framework/testsuites/test_relicl.py" />
+    <entry file="file://$PROJECT_DIR$/../接口测试/test_sfs.py" />
+    <entry file="file://$PROJECT_DIR$/../接口测试/test_读excel请求接口.py" />
+    <entry file="file://$PROJECT_DIR$/../untitled/untitled/ParseExcelUtil.py" />
+    <entry file="file://$PROJECT_DIR$/../untitled/untitled/run.py" />
+    <entry file="file://$PROJECT_DIR$/../test/45.py" />
+    <entry file="file://$PROJECT_DIR$/../test/test.py" />
+    <entry file="file://$PROJECT_DIR$/test_case1/test_1.py" />
+    <entry file="file://$PROJECT_DIR$/../test/dz1.py" />
+    <entry file="file://$PROJECT_DIR$/framework/RWExcel - 副本.py" />
+    <entry file="file://$PROJECT_DIR$/framework/W.py" />
+    <entry file="file://$PROJECT_DIR$/../test/dz2.py" />
+    <entry file="file://$PROJECT_DIR$/../test/sdgsd.py" />
+    <entry file="file://$PROJECT_DIR$/../test/RWExcel.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/test_2.py" />
+    <entry file="file://$PROJECT_DIR$/logs/201909272223.log" />
+    <entry file="file://$PROJECT_DIR$/framework/PathExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/GetExceltolist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <folding>
+            <element signature="e#1#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/FindValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/WExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/RWExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/WriteData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/RExcetodicl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test/run.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/RequestAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/Method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
