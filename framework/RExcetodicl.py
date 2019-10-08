@@ -11,7 +11,7 @@ class RExcetodicl():
         sheet1 = wb[sheet_names[0]]  # 打开第一个 sheet 工作表
         # 获取C列的所有数据
         datas=[]
-        for b, e, c, a, d,f,g in zip(sheet1["B"][1:], sheet1["E"][1:], sheet1["C"][1:], sheet1["A"][1:],sheet1["D"][1:], sheet1["F"][1:],sheet1["G"][1:]):
+        for b, e, c, a, d,f,g,h in zip(sheet1["B"][1:], sheet1["E"][1:], sheet1["C"][1:], sheet1["A"][1:],sheet1["D"][1:], sheet1["F"][1:],sheet1["G"][1:],sheet1["H"][1:]):
             data={
                 "url":c.value,
                 "param": f.value,
@@ -19,10 +19,13 @@ class RExcetodicl():
                 "headers": e.value,
                 "testname": b.value,
                 "expect": g.value,
+                "case_class":h.value,
                 "path_ex":path_ex,
                 "row":a.value,
             }
-            datas.append(data)
+            if data["case_class"]=="K":
+                datas.append(data)
+
         try:
             wb.save(path_ex)
             #logger.info('测试数据保存成功！！！')
