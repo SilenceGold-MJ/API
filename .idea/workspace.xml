@@ -2,19 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="updata">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (1).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (10).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (2).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (3).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (4).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (5).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (6).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (7).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (8).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (9).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/201910081634.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_report/2019-10-08-16_34_42HTMLtemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (1).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (10).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (2).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (3).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (4).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (5).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (6).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (7).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (8).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_  (9).xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/FindValue.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/FindValue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/GetExceltolist.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/GetExceltolist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/Method.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/Method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/RWExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/RWExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/RequestAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/RequestAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/WExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/WExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/WriteData.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/WriteData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/201910081744.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/2019-10-08-17_44_55HTMLtemplate.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="115">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -100,10 +110,103 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_case/test_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="164">
+              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/FindValue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/Method.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-115">
+              <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/WExcel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/WriteData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/RequestAPI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/RExcetodicl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/RWExcel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,38 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../test_get.py" />
-        <option value="$PROJECT_DIR$/../GegName.py" />
-        <option value="$PROJECT_DIR$/../DentificationTest.py" />
-        <option value="$PROJECT_DIR$/../test2.py" />
-        <option value="$PROJECT_DIR$/../requests_test.py" />
-        <option value="D:/20190702识别率测试/小图/文物识别准确率测试20190705/testprct/requests_test.py" />
-        <option value="D:/20190702识别率测试/小图/文物识别准确率测试20190705/testprct/filename.py" />
-        <option value="D:/20190702识别率测试/小图/filename.py" />
-        <option value="D:/20190702识别率测试/小图/testprct/filename.py" />
-        <option value="D:/20190702识别率测试/小图/testprct/requests_test.py" />
-        <option value="D:/20190702识别率测试/小图/base64/requests_test.py" />
-        <option value="$PROJECT_DIR$/../urllib_test.py" />
-        <option value="$PROJECT_DIR$/modules/entrance.py" />
-        <option value="F:/uiautomator2/project/python3.7/Clock.py" />
-        <option value="F:/uiautomator2/project/python3.7/滑动验证/Clock.py" />
-        <option value="F:/uiautomator2/project/python3.7/滑动验证/test.py" />
-        <option value="F:/uiautomator2/project/python3.7/滑动验证/opencv1.py" />
-        <option value="F:/uiautomator2/project/python3.7/huadong/test.py" />
-        <option value="F:/python3/帧率/fps_detect.py" />
-        <option value="F:/python3/帧率/fps_detect(python3.0).py" />
-        <option value="F:/python3/帧率/fps_detect_(python3.0).py" />
-        <option value="F:/python3/帧率/get_mem.py" />
-        <option value="F:/python3/帧率/get_cpu.py" />
-        <option value="F:/uiautomator2/project/python3.7/huadong/opencv1.py" />
-        <option value="F:/uiautomator2/project/python3.7/huadong/Clock.py" />
-        <option value="F:/python3/帧率/get_memcpu.py" />
-        <option value="$PROJECT_DIR$/testsuites/test_relicl.py" />
-        <option value="$PROJECT_DIR$/framework/logger.py" />
-        <option value="$PROJECT_DIR$/../接口测试/test_sfs.py" />
-        <option value="$PROJECT_DIR$/framework/ReadExel.py" />
-        <option value="$PROJECT_DIR$/framework/PathExcel.py" />
-        <option value="$PROJECT_DIR$/framework/FindValue.py" />
         <option value="$PROJECT_DIR$/../untitled/untitled/ParseExcelUtil.py" />
         <option value="$PROJECT_DIR$/../test/45.py" />
         <option value="$PROJECT_DIR$/../test/test.py" />
@@ -168,25 +239,57 @@
         <option value="$PROJECT_DIR$/test_case1/test_1.py" />
         <option value="$PROJECT_DIR$/../test/dz2.py" />
         <option value="$PROJECT_DIR$/../test/sdgsd.py" />
-        <option value="$PROJECT_DIR$/framework/RWExcel.py" />
         <option value="$PROJECT_DIR$/test_case/test_2.py" />
-        <option value="$PROJECT_DIR$/framework/WExcel.py" />
-        <option value="$PROJECT_DIR$/framework/GetExceltolist.py" />
-        <option value="$PROJECT_DIR$/framework/Method.py" />
         <option value="$PROJECT_DIR$/../test/run.py" />
-        <option value="$PROJECT_DIR$/framework/RequestAPI.py" />
-        <option value="$PROJECT_DIR$/test_case/test_1.py" />
-        <option value="$PROJECT_DIR$/TestRunner.py" />
         <option value="$PROJECT_DIR$/framework/RExcetodicl.py" />
+        <option value="$PROJECT_DIR$/../../../test2.py" />
+        <option value="$PROJECT_DIR$/../../../test.py" />
+        <option value="D:/Program Files (x86)/python3/Lib/site-packages/uiautomator2/ext/perf/__init__.py" />
+        <option value="F:/12/帧率/UI2获取性能数据/get_apk_perf.py" />
+        <option value="F:/12/帧率/UI2获取性能数据/test.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/get_memcpu.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据/__init__.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据/get_apk_perf.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据/绘制表格.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/test多线程.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/绘制图表.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/liulian.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/test.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/v/PerformanceDataTest.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/PerformanceDataTest.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/DrawingCharts.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/get_c_m_f.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/duoxianctest.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfs - 副本/liulian.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfs - 副本/PerformanceDataTest.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfs - 副本/DrawingCharts.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss/duoxianctest.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss/liulian.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss/PerformanceDataTest.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss/get_c_m_f.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss/DrawingCharts.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss/Data_Charts.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据/test.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss/Perf_DataTest.py" />
+        <option value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss/test.py" />
+        <option value="$PROJECT_DIR$/TestRunner.py" />
+        <option value="$PROJECT_DIR$/framework/GetExceltolist.py" />
         <option value="$PROJECT_DIR$/framework/WriteData.py" />
+        <option value="$PROJECT_DIR$/framework/RWExcel.py" />
+        <option value="$PROJECT_DIR$/framework/WExcel.py" />
+        <option value="$PROJECT_DIR$/test_case/test_1.py" />
+        <option value="$PROJECT_DIR$/framework/RequestAPI.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/framework/FindValue.py" />
+        <option value="$PROJECT_DIR$/framework/Method.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="89" />
-    <option name="width" value="1805" />
-    <option name="height" value="836" />
+    <option name="x" value="6" />
+    <option name="y" value="172" />
+    <option name="width" value="1811" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -221,7 +324,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../API - 副本" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -251,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestRunner">
+  <component name="RunManager" selected="Python.test (2)">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,12 +382,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framework" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/RWExcel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/RWExcel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,7 +418,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="automation_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,12 +426,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,7 +440,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sdgsd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="automation_test_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,12 +448,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/sdgsd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../python3/帧率/perfsssss/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,19 +478,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.TestRunner" />
-      <item itemvalue="Python.sdgsd" />
       <item itemvalue="Python.RWExcel" />
-      <item itemvalue="Python.run" />
+      <item itemvalue="Python.test (2)" />
       <item itemvalue="Python tests.Unittests for test_1.Test.test_1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.TestRunner" />
+        <item itemvalue="Python.test (2)" />
         <item itemvalue="Python tests.Unittests for test_1.Test.test_1" />
-        <item itemvalue="Python.run" />
         <item itemvalue="Python.RWExcel" />
-        <item itemvalue="Python.sdgsd" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +524,19 @@
       <workItem from="1569744639096" duration="314000" />
       <workItem from="1570519884643" duration="1394000" />
       <workItem from="1570522067846" duration="2913000" />
-      <workItem from="1570527874015" duration="62000" />
+      <workItem from="1570527874015" duration="99000" />
+      <workItem from="1570604143816" duration="599000" />
+      <workItem from="1578470982171" duration="6673000" />
+      <workItem from="1578531822414" duration="28478000" />
+      <workItem from="1578618171575" duration="29875000" />
+      <workItem from="1578876968753" duration="28525000" />
+      <workItem from="1578963666676" duration="6240000" />
+      <workItem from="1596686359699" duration="744000" />
+      <workItem from="1596687810579" duration="2754000" />
+      <workItem from="1596707707631" duration="514000" />
+      <workItem from="1596762127598" duration="3101000" />
+      <workItem from="1597021399478" duration="630000" />
+      <workItem from="1598510961200" duration="7596000" />
     </task>
     <task id="LOCAL-00001" summary="1修改说明">
       <created>1569722564416</created>
@@ -479,13 +594,17 @@
       <option name="project" value="LOCAL" />
       <updated>1570524914420</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updata">
+      <created>1570527955938</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570527955938</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_1_py - 2019.09.24 at 10h 03m 42s.xml">
-      <configuration name="Unittests in test_1.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_1_py - 2019.09.26 at 20h 56m 35s.xml">
       <configuration name="Unittests in test_1.py" configurationId="tests" />
     </history-entry>
@@ -513,9 +632,12 @@
     <history-entry file="Unittests_for_test_1_Test_test_1 - 2019.09.28 at 15h 23m 23s.xml">
       <configuration name="Unittests for test_1.Test.test_1" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_1_Test_test_1 - 2020.08.27 at 16h 04m 45s.xml">
+      <configuration name="Unittests for test_1.Test.test_1" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90697000" />
+    <option name="totallyTimeSpent" value="206463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,16 +649,44 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="89" width="1805" height="836" extended-state="0" />
+    <frame x="6" y="172" width="1811" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15702006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16847515" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920793" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42022792" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975247" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4989899" weight="0.32794118" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4014706" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3985294" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4996633" weight="0.32905984" />
+      <window_info anchor="bottom" id="运行" order="8" weight="0.38385093" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4983165" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016835" side_tool="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="调试" order="12" weight="0.32900944" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.4996633" weight="0.32905984" />
+      <window_info anchor="bottom" id="找到" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="16" weight="0.32991204" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16162193" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920793" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3079179" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4996633" weight="0.32905984" />
@@ -554,7 +704,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -618,120 +768,221 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Test_framework$test_sfs.coverage" NAME="test_sfs Coverage Results" MODIFIED="1569228122207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../接口测试" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test_test_1.coverage" NAME="Unittests for test_1.Test.test_1 Coverage Results" MODIFIED="1569655403436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/Test_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1569427215103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/API$get_apk_perf.coverage" NAME="get_apk_perf Coverage Results" MODIFIED="1578562714658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_in_RequestAPI_py.coverage" NAME="Unittests in RequestAPI.py Coverage Results" MODIFIED="1569231494133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
-    <SUITE FILE_PATH="coverage/API$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1570527894209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/API$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1598518377731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_framework$ParseExcelUtil.coverage" NAME="ParseExcelUtil Coverage Results" MODIFIED="1569422399080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../untitled/untitled" />
-    <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Relicl.coverage" NAME="Unittests for test_1.Relicl Coverage Results" MODIFIED="1569216699939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/API$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1598517600645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test.coverage" NAME="Unittests for test_1.Test Coverage Results" MODIFIED="1569503402710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Test_framework$RWExcel.coverage" NAME="RWExcel Coverage Results" MODIFIED="1569508602188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
-    <SUITE FILE_PATH="coverage/Test_framework$run.coverage" NAME="run Coverage Results" MODIFIED="1569654855565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
-    <SUITE FILE_PATH="coverage/Test_framework$dz2.coverage" NAME="dz2 Coverage Results" MODIFIED="1569503214878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
-    <SUITE FILE_PATH="coverage/Test_framework$logger.coverage" NAME="logger Coverage Results" MODIFIED="1569212303023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/API$get_c_m_f.coverage" NAME="get_c_m_f Coverage Results" MODIFIED="1578878744729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
+    <SUITE FILE_PATH="coverage/API$RWExcel.coverage" NAME="RWExcel Coverage Results" MODIFIED="1596691940756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/API$PerformanceDataTest__2_.coverage" NAME="PerformanceDataTest (2) Coverage Results" MODIFIED="1578883533924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
+    <SUITE FILE_PATH="coverage/API$DrawingCharts.coverage" NAME="DrawingCharts Coverage Results" MODIFIED="1578884404283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Relicl_test_1.coverage" NAME="Unittests for test_1.Relicl.test_1 Coverage Results" MODIFIED="1569225758874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Test_framework$TestRunner__1_.coverage" NAME="TestRunner (1) Coverage Results" MODIFIED="1569382564522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/API$.coverage" NAME="绘制表格 Coverage Results" MODIFIED="1578639949487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据" />
+    <SUITE FILE_PATH="coverage/API$Unittests_for_test_1_Test_test_1.coverage" NAME="Unittests for test_1.Test.test_1 Coverage Results" MODIFIED="1598515484665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/API$liulian.coverage" NAME="liulian Coverage Results" MODIFIED="1578884306920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
     <SUITE FILE_PATH="coverage/relic_test_framework$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1569211011276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_relicl_Relicl.coverage" NAME="Unittests for test_relicl.Relicl Coverage Results" MODIFIED="1569211328480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/Test_framework$dz1.coverage" NAME="dz1 Coverage Results" MODIFIED="1569501777882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/API$PerformanceDataTest.coverage" NAME="PerformanceDataTest Coverage Results" MODIFIED="1578644331300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_in_test_1_py.coverage" NAME="Unittests in test_1.py Coverage Results" MODIFIED="1569503445057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/Test_framework$sdgsd.coverage" NAME="sdgsd Coverage Results" MODIFIED="1569506287650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/API$DrawingCharts__1_.coverage" NAME="DrawingCharts (1) Coverage Results" MODIFIED="1578644911450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfs - 副本" />
+    <SUITE FILE_PATH="coverage/API$duoxianctest.coverage" NAME="duoxianctest Coverage Results" MODIFIED="1578879193592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
+    <SUITE FILE_PATH="coverage/Test_framework$test.coverage" NAME="test Coverage Results" MODIFIED="1569427215103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Relicl.coverage" NAME="Unittests for test_1.Relicl Coverage Results" MODIFIED="1569216699939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/API$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1578474706843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../.." />
+    <SUITE FILE_PATH="coverage/Test_framework$run.coverage" NAME="run Coverage Results" MODIFIED="1569654855565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/API$PerformanceDataTest__1_.coverage" NAME="PerformanceDataTest (1) Coverage Results" MODIFIED="1578645409396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfs - 副本" />
+    <SUITE FILE_PATH="coverage/API$Perf_DataTest.coverage" NAME="Perf_DataTest Coverage Results" MODIFIED="1578964989380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
+    <SUITE FILE_PATH="coverage/Test_framework$dz2.coverage" NAME="dz2 Coverage Results" MODIFIED="1569503214878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/Test_framework$logger.coverage" NAME="logger Coverage Results" MODIFIED="1569212303023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/API$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1578969541188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据" />
+    <SUITE FILE_PATH="coverage/API$Data_Charts.coverage" NAME="Data_Charts Coverage Results" MODIFIED="1578895875710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
     <SUITE FILE_PATH="coverage/Test_framework$test_excel.coverage" NAME="test_读excel请求接口 Coverage Results" MODIFIED="1569215401310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../接口测试" />
     <SUITE FILE_PATH="coverage/Test_framework$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1569719501219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_RequestAPI_RequestAPI.coverage" NAME="Unittests for RequestAPI.RequestAPI Coverage Results" MODIFIED="1569230715293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
-    <SUITE FILE_PATH="coverage/Test_framework$dz1.coverage" NAME="dz1 Coverage Results" MODIFIED="1569501777882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
-    <SUITE FILE_PATH="coverage/Test_framework$Unittests_in_test_1_py.coverage" NAME="Unittests in test_1.py Coverage Results" MODIFIED="1569503445057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/Test_framework$sdgsd.coverage" NAME="sdgsd Coverage Results" MODIFIED="1569506287650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test" />
+    <SUITE FILE_PATH="coverage/API$test.coverage" NAME="test Coverage Results" MODIFIED="1578969606879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/framework/watcherson.py" />
-    <entry file="file://$PROJECT_DIR$/framework/sliding.py" />
-    <entry file="file://$PROJECT_DIR$/framework/picturetest.py" />
-    <entry file="file://$PROJECT_DIR$/framework/lock.py" />
-    <entry file="file://$PROJECT_DIR$/modules/entrance.py" />
-    <entry file="file://F:/uiautomator2/project/python3.7/Clock.py" />
-    <entry file="file://F:/uiautomator2/project/python3.7/滑动验证/opencv1.py" />
-    <entry file="file://F:/uiautomator2/project/python3.7/滑动验证/test.py" />
-    <entry file="file://F:/uiautomator2/project/python3.7/滑动验证/Clock.py" />
-    <entry file="file://D:/../hi，我在这儿/用例编写进度/资料包/滑动流畅性-帧率/fps_detect.py" />
-    <entry file="file://F:/python3/帧率/fps_detect.py" />
-    <entry file="file://F:/python3/帧率/fps_detect(python3.0).py" />
-    <entry file="file://F:/12/帧率/fps_detect_(python3.0).py" />
-    <entry file="file://F:/python3/帧率/fps_detect_(python3.0).py" />
-    <entry file="file://F:/python3/帧率/get_mem.py" />
-    <entry file="file://F:/uiautomator2/project/python3.7/huadong/Clock.py" />
-    <entry file="file://F:/uiautomator2/project/python3.7/huadong/test.py" />
-    <entry file="file://F:/uiautomator2/project/python3.7/huadong/opencv1.py" />
-    <entry file="file://F:/python3/帧率/get_memcpu.py" />
-    <entry file="file://F:/python3/帧率/get_cpu.py" />
-    <entry file="file://$PROJECT_DIR$/testsuites/TestRunner.py" />
-    <entry file="file://F:/项目/文物/文物识别小程序/python/CulturalRelicIdentify.py" />
-    <entry file="file://F:/项目/文物/文物识别小程序/python/relic_test_framework/testsuites/test_relicl.py" />
-    <entry file="file://$PROJECT_DIR$/../接口测试/test_sfs.py" />
-    <entry file="file://$PROJECT_DIR$/../接口测试/test_读excel请求接口.py" />
-    <entry file="file://$PROJECT_DIR$/../untitled/untitled/ParseExcelUtil.py" />
-    <entry file="file://$PROJECT_DIR$/../untitled/untitled/run.py" />
-    <entry file="file://$PROJECT_DIR$/../test/45.py" />
-    <entry file="file://$PROJECT_DIR$/../test/test.py" />
-    <entry file="file://$PROJECT_DIR$/test_case1/test_1.py" />
-    <entry file="file://$PROJECT_DIR$/../test/dz1.py" />
-    <entry file="file://$PROJECT_DIR$/framework/RWExcel - 副本.py" />
-    <entry file="file://$PROJECT_DIR$/framework/W.py" />
-    <entry file="file://$PROJECT_DIR$/../test/dz2.py" />
-    <entry file="file://$PROJECT_DIR$/../test/sdgsd.py" />
-    <entry file="file://$PROJECT_DIR$/../test/RWExcel.py" />
-    <entry file="file://$PROJECT_DIR$/test_case/test_2.py" />
-    <entry file="file://$PROJECT_DIR$/logs/201909272223.log" />
-    <entry file="file://$PROJECT_DIR$/../test/run.py" />
-    <entry file="file://$PROJECT_DIR$/framework/Method.py">
+    <entry file="file://$PROJECT_DIR$/../../../test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" column="11" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/python3/Lib/site-packages/uiautomator2/ext/perf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/12/帧率/UI2获取性能数据/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="72" column="55" lean-forward="true" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+          <folding>
+            <element signature="e#48#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/get_memcpu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="40" column="38" lean-forward="true" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/12/帧率/UI2获取性能数据/get_apk_perf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/WriteData.py">
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/fps_detect_(python3.0).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/WExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/RWExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1017">
-          <caret line="48" selection-start-line="48" selection-end-line="49" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/PathExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        <state relative-caret-position="23">
+          <caret line="79" column="16" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Program Files (x86)/python3/Lib/site-packages/uiautomator2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="418" lean-forward="true" selection-start-line="418" selection-end-line="418" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据/get_apk_perf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3/Ceramic/release版/陶瓷瓶算法dll -多线程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="25" column="59" lean-forward="true" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据/绘制表格.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="88" column="28" lean-forward="true" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/test多线程.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/绘制图表.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/test.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/v/PerformanceDataTest.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/v/csv20200110161117.csv" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/DrawingCharts.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/get_c_m_f.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/PerformanceDataTest.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/liulian.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/duoxianctest.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfs - 副本/20200110162459.csv" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfs - 副本/liulian.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfs - 副本/DrawingCharts.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfs - 副本/PerformanceDataTest.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfsssss/duoxianctest.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfsssss/get_c_m_f.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfsssss/PerformanceDataTest.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfsssss/liulian.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfsssss/DrawingCharts.py" />
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="112" column="70" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="70" />
+          <folding>
+            <element signature="e#19#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfsssss/Data_Charts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfsssss/Perf_DataTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="194" selection-start-line="194" selection-end-line="211" selection-end-column="22" />
+          <folding>
+            <element signature="e#48#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/perfsssss/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#48#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-591528463/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="3644" column="8" selection-start-line="3644" selection-start-column="8" selection-end-line="3644" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/GetExceltolist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/framework/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="46">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
@@ -739,48 +990,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/FindValue.py">
+    <entry file="file://$PROJECT_DIR$/framework/PathExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="230">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/GetExceltolist.py">
+    <entry file="file://$PROJECT_DIR$/framework/WExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/RExcetodicl.py">
+    <entry file="file://$PROJECT_DIR$/test_case/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/WriteData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="276">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/RequestAPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="115">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/framework/RExcetodicl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/RWExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="115">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/Method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/FindValue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/test_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="164">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

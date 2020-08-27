@@ -3,15 +3,20 @@ from framework.logger import Logger
 logger = Logger(logger="Merhod").getlog()
 class Merhod():
 
-    def merhod(self,  url,method, param,headers,testname ):#expect,sheet1,  row
+    def merhod(self,url,method, param,headers,testname ):#expect,sheet1,  row
+        #logger.info([url,method, param,headers,testname])
         try:
             if method=='get':
-                APIdata=RequestAPI.get(self,url, param,headers, testname)
+                APIdata=RequestAPI().get(url, param,headers, testname)
+                #logger.info([url, param,headers, testname,APIdata])
+                #logger.info([testname,url, param,  APIdata])
                 return APIdata
                 #RequestAPI.writedata(API_data, expect, sheet1, row, testname)
 
             elif method=='post':
-                APIdata=RequestAPI.post(self,url, param,headers, testname)
+                APIdata=RequestAPI().API_post(url, param,headers, testname)
+                #logger.info([testname,url, param,  APIdata])
+                #logger.info(APIdata)
                 return APIdata
                 #RequestAPI.writedata(API_data, expect, sheet1, row, testname)
 

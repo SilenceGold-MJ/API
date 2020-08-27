@@ -15,7 +15,7 @@ class WExcel():
         sheet1 = wb[sheet_names[0]]  # 打开第一个 sheet 工作表
 
 
-        WriteData.writedata(self,PM,expect,sheet1,row,testname)
+        WriteData().writedata(PM,expect,sheet1,row,testname)
 
         try:
             wb.save(path_ex)

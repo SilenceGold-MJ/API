@@ -25,7 +25,8 @@ if __name__ =='__main__':
     runner = HTMLTestRunner(stream=fp, title=u"自动化测试报告", description=u"用例测试情况")  #from tools.HTMLTestRunner import HTMLTestRunner
     #runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u"自动化测试报告", description=u"用例测试情况") #import HTMLTestRunner
     # 开始执行测试套件
+
     runner.run(suite)
     fp.close()
-    #input('Press Enter to exit...')
+    input('Press Enter to exit...')
 

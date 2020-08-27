@@ -8,7 +8,7 @@ class WriteData():
         #PM['Response_Data'] = PM['Response_Data'] .replace("'", '"')  # 替换"'", '"'
         #dict_data = json.loads(PM['Response_Data'] )  # 转python字典
 
-        if FindValue.find_value(self,PM['Response_Data'] , expect) == True:  # ReadAPI.get(url, param,testname)[3])==200:
+        if FindValue().find_value(PM['Response_Data'] , expect) == True:  # ReadAPI.get(url, param,testname)[3])==200:
             sheet1.cell(row=row, column=9, value=str(PM['Response_Data']))  # 响应结果
             sheet1.cell(row=row, column=10, value=PM['time'])  # 请求时间
             sheet1.cell(row=row, column=11, value=int(PM['Status_Code']))  # 状态码

@@ -19,27 +19,32 @@ class RWExcel():
         sheet1 = wb[sheet_names[0]]  # 打开第一个 sheet 工作表
 
         # 获取C列的所有数据
-        list_sheet1_column_E = []  # 请求参数
+        list_sheet1_column_E = []  # 请求头
         list_sheet1_column_B = []  # 请求地址
         list_sheet1_column_C = []  # 请求方式
         list_sheet1_column_A = []  # 请求名称项
         list_sheet1_column_F = []  # 期望关键字
+        list_sheet1_column_D=[]
+        list_sheet1_column_G=[]
 
-        for b, e, c, a, f in zip(sheet1["B"], sheet1["E"], sheet1["C"], sheet1["A"], sheet1["F"]):
+        for b, e, c, a, f,d,g in zip(sheet1["B"], sheet1["E"], sheet1["C"], sheet1["A"], sheet1["F"],sheet1["D"],sheet1["G"]):
             list_sheet1_column_A.append(a.value)
             list_sheet1_column_B.append(b.value)
             list_sheet1_column_C.append(c.value)
             list_sheet1_column_E.append(e.value)
             list_sheet1_column_F.append(f.value)
+            list_sheet1_column_D.append(d.value)
+            list_sheet1_column_G.append(g.valer)
         row=2
-        for url, method, str_param, testname, expect in zip(list_sheet1_column_B[1:], list_sheet1_column_C[1:],
-                                                            list_sheet1_column_E[1:], list_sheet1_column_A[1:],
-                                                            list_sheet1_column_F[1:]):
-            #logger.info(str(url), str(method), str(str_param), str(testname))
-            PM=(Merhod.merhod(self,url, method, str_param, testname))
+        for testname,url, method, headers,str_param,expect in zip(list_sheet1_column_B[1:], list_sheet1_column_C[1:],list_sheet1_column_D[1:],
+                                                            list_sheet1_column_E[1:], list_sheet1_column_F[1:], list_sheet1_column_G[1:]):
+
+            #print(str(url), str(method), str(str_param), str(testname))
+            PM=(Merhod().merhod(url, method, str_param,headers, testname))
+            #url, method, param, headers, testname
 
             try:
-                if WriteData.writedata(self, PM, expect, sheet1, row, testname)=='fail':# 读写excel
+                if WriteData().writedata( PM, expect, sheet1, row, testname)=='fail':# 读写excel
                     fails.append('fail')
                 else:#WriteData.writedata(self, PM, expect, sheet1, row, testname)=='pass':# 读写excel
                     passs.append('pass')

@@ -29,9 +29,11 @@ class RequestAPI():
             }
 
     def post(self, url, param,headers,testname):
+        payload = (param)
+
         headers = eval(headers)
         try:
-            r = requests.post(url, data=param,headers=headers)
+            r = requests.post(url, data=payload,headers=headers)
             r.raise_for_status()  # 如果响应状态码不是 200，就主动抛出异常
         except requests.RequestException as e:
             #print(e)
@@ -53,3 +55,14 @@ class RequestAPI():
                     }
             #logger.info(r.json())
 
+    def API_post(self,url, param,headers,testname):
+        headers =eval(headers)
+        r = requests.request("POST", url, headers=headers, data=param)
+        dic={
+            "testname": testname,
+            "time": r.elapsed.total_seconds(),
+            "Status_Code": r.status_code,
+            "Response_Data": r.text,
+        }
+        #logger.info("dic:%s"%dic)
+        return dic
