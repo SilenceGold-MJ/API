@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="修改预期结果和期望的校验">
+    <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="删除不用的py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/RWExcel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (1).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (1).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用六.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用六.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/Method.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/Method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_report/2020-08-27-16_35_43HTMLtemplate.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/WriteData.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
@@ -143,11 +146,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/framework/Method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="207">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -515,7 +518,7 @@
       <workItem from="1596707707631" duration="514000" />
       <workItem from="1596762127598" duration="3101000" />
       <workItem from="1597021399478" duration="630000" />
-      <workItem from="1598510961200" duration="7985000" />
+      <workItem from="1598510961200" duration="8858000" />
     </task>
     <task id="LOCAL-00001" summary="1修改说明">
       <created>1569722564416</created>
@@ -587,7 +590,28 @@
       <option name="project" value="LOCAL" />
       <updated>1598518678080</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="删除不用的py">
+      <created>1598518980025</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598518980025</updated>
+    </task>
+    <task id="LOCAL-00012" summary="删除不用的py">
+      <created>1598519194577</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598519194577</updated>
+    </task>
+    <task id="LOCAL-00013" summary="删除不用的py">
+      <created>1598519526926</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598519526926</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -623,7 +647,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206852000" />
+    <option name="totallyTimeSpent" value="207725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,13 +662,13 @@
     <frame x="6" y="172" width="1811" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16847515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16847515" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920793" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4989899" weight="0.32794118" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.4014706" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4014706" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3985294" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -741,7 +765,8 @@
     <MESSAGE value="更新" />
     <MESSAGE value="updata" />
     <MESSAGE value="修改预期结果和期望的校验" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改预期结果和期望的校验" />
+    <MESSAGE value="删除不用的py" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除不用的py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -757,7 +782,7 @@
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test_test_1.coverage" NAME="Unittests for test_1.Test.test_1 Coverage Results" MODIFIED="1569655403436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/API$get_apk_perf.coverage" NAME="get_apk_perf Coverage Results" MODIFIED="1578562714658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/UI2获取性能数据" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_in_RequestAPI_py.coverage" NAME="Unittests in RequestAPI.py Coverage Results" MODIFIED="1569231494133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
-    <SUITE FILE_PATH="coverage/API$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1598518892857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/API$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1598519836381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_framework$ParseExcelUtil.coverage" NAME="ParseExcelUtil Coverage Results" MODIFIED="1569422399080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../untitled/untitled" />
     <SUITE FILE_PATH="coverage/API$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1598517600645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Test_framework$Unittests_for_test_1_Test.coverage" NAME="Unittests for test_1.Test Coverage Results" MODIFIED="1569503402710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
@@ -1017,16 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/Method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/PathExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1080,6 +1095,16 @@
           <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/Method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
