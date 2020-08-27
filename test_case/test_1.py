@@ -31,9 +31,15 @@ class Test(unittest.TestCase):
         print('响应报文：'+ str(PM["Response_Data"]))
         print('断言关键字：'+str(data["expect"]))
 
-        logger.info('《'+str(data["path_ex"].split('\\')[-1])+'用例》'+'；《' + str(data["testname"]) + '》项，请求成功。响应时间：' + str(PM["time"]) + '、状态码：' + str(PM["Status_Code"]))
+        if str(data["expect"])in str(PM["Response_Data"]):
+            result1="通过"
+        else:
+            result1="失败"
+        logger.info('《'+str(data["path_ex"].split('\\')[-1])+'用例》'+'；《' + str(data["testname"]) + '》项，接口测试'+result1+'。响应时间：' + str(PM["time"]) + '、状态码：' + str(PM["Status_Code"]))
         WExcel().WExcel(data["path_ex"],PM,data["expect"],data["row"]+1,data["path_ex"].split('\\')[-1])
-        self.assertEqual(FindValue().find_value(PM["Response_Data"],data["expect"]),True)
+        #assertIn(self, member, container, msg=None)
+        #str(fvalue) in str(dir_data)
+        self.assertIn(str(data["expect"]),str(PM["Response_Data"]))
 
 if __name__=='__main__':
 
