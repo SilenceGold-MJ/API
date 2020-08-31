@@ -1,5 +1,0 @@
-运行之前请安装下面库，已安装过的不用安装
-
-pip3 install openpyxl
-pip3 install requests
-pip3 install ddt

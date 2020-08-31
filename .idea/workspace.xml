@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="更新报告html">
-      <change afterPath="$PROJECT_DIR$/config/HTMLTestRunner - 副本.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/HTMLTestRunner.py" afterDir="false" />
+    <list default="true" id="314d969f-c1e9-4024-8188-8006001b0880" name="Default" comment="兼容有完整请求地址和无完整地址找配置文件拼接">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_excel/接口测试用例_ (1) - 副本.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data_excel/接口测试用例_ (1) - 副本.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/RExcetodicl.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/RExcetodicl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/202008271635.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readmi.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,10 +92,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="92">
+                <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -105,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/config/config.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -115,15 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
               <caret line="4" column="22" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/WriteData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -156,7 +158,7 @@
         <entry file="file://$PROJECT_DIR$/framework/RExcetodicl.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -192,7 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../test/RWExcel.py" />
         <option value="$PROJECT_DIR$/../test/dz1.py" />
         <option value="$PROJECT_DIR$/test_case1/test_1.py" />
         <option value="$PROJECT_DIR$/../test/dz2.py" />
@@ -243,6 +244,7 @@
         <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/framework/RExcetodicl.py" />
         <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -508,7 +510,7 @@
       <workItem from="1596762127598" duration="3101000" />
       <workItem from="1597021399478" duration="630000" />
       <workItem from="1598510961200" duration="11551000" />
-      <workItem from="1598835826430" duration="11173000" />
+      <workItem from="1598835826430" duration="12367000" />
     </task>
     <task id="LOCAL-00001" summary="1修改说明">
       <created>1569722564416</created>
@@ -636,7 +638,28 @@
       <option name="project" value="LOCAL" />
       <updated>1598862122977</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="兼容有完整请求地址和无完整地址找配置文件拼接">
+      <created>1598865159723</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598865159723</updated>
+    </task>
+    <task id="LOCAL-00020" summary="兼容有完整请求地址和无完整地址找配置文件拼接">
+      <created>1598865201696</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598865201696</updated>
+    </task>
+    <task id="LOCAL-00021" summary="兼容有完整请求地址和无完整地址找配置文件拼接">
+      <created>1598865277710</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598865277710</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -672,9 +695,9 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221591000" />
+    <option name="totallyTimeSpent" value="222785000" />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="5">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -687,17 +710,17 @@
     <frame x="103" y="94" width="1811" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17018846" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17018846" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920793" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4989899" weight="0.32794118" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.11617647" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.11617647" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3985294" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4996633" weight="0.32794118" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4996633" visible="true" weight="0.33970588" />
       <window_info anchor="bottom" id="运行" order="8" weight="0.38385093" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4983165" weight="0.32905984" />
@@ -795,7 +818,8 @@
     <MESSAGE value="添加失败通过的动态描述" />
     <MESSAGE value="添加配置替换地址，修改请求参数不能为汉字问题" />
     <MESSAGE value="更新报告html" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新报告html" />
+    <MESSAGE value="兼容有完整请求地址和无完整地址找配置文件拼接" />
+    <option name="LAST_COMMIT_MESSAGE" value="兼容有完整请求地址和无完整地址找配置文件拼接" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -849,26 +873,6 @@
     <SUITE FILE_PATH="coverage/API$test.coverage" NAME="test Coverage Results" MODIFIED="1578969606879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../python3/帧率/perfsssss" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/12/帧率/UI2获取性能数据/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="72" column="55" lean-forward="true" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
-          <folding>
-            <element signature="e#48#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../python3/帧率/get_memcpu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="40" column="38" lean-forward="true" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/12/帧率/UI2获取性能数据/get_apk_perf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1075,7 +1079,7 @@
     <entry file="file://$PROJECT_DIR$/config/config.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1096,7 +1100,7 @@
     <entry file="file://$PROJECT_DIR$/framework/RExcetodicl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
@@ -1106,7 +1110,20 @@
     <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readmi.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
