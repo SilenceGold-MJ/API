@@ -1,4 +1,7 @@
-#coding=utf-8
+# FileName : MyHTMLTestRunner.py
+# Author   : wangyinghao
+# DateTime : 2019/1/9 21:04
+# SoftWare : PyCharm
 """
 A TestRunner for use with the Python unit testing framework. It
 generates a HTML report to show the result at a glance.
@@ -65,8 +68,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # URL: http://tungwaiyip.info/software/HTMLTestRunner.html
 
-__author__ = "Wai Yip Tung,  Findyou"
-__version__ = "0.8.2.2"
+__author__ = "Wai Yip Tung,  Findyou，Adil"
+__version__ = "0.8.2.3"
 
 
 """
@@ -184,10 +187,11 @@ class Template_mixin(object):
     1: '失败',
     2: '错误',
     }
-
-    DEFAULT_TITLE = '单元测试报告'
+    # 默认测试标题
+    DEFAULT_TITLE = '自动化测试报告'
     DEFAULT_DESCRIPTION = ''
-    DEFAULT_TESTER='QA'
+    # 默认测试人员
+    DEFAULT_TESTER = 'MoJin'
 
     # ------------------------------------------------------------------------
     # HTML Template
@@ -208,11 +212,13 @@ class Template_mixin(object):
 <script language="javascript" type="text/javascript">
 output_list = Array();
 
-/*level 调整增加只显示通过用例的分类 --Findyou
+/*level 调整增加只显示通过用例的分类 --Adil
 0:Summary //all hiddenRow
 1:Failed  //pt hiddenRow, ft none
 2:Pass    //pt none, ft hiddenRow
-3:All     //pt none, ft none
+3:Error   // pt hiddenRow, ft none
+4:All     //pt none, ft none
+下面设置 按钮展开逻辑  --Yang Yao Jun
 */
 function showCase(level) {
     trs = document.getElementsByTagName("tr");
@@ -228,7 +234,7 @@ function showCase(level) {
             }
         }
         if (id.substr(0,2) == 'pt') {
-            if (level < 2) {
+            if (level < 2 || level ==3 ) {
                 tr.className = 'hiddenRow';
             }
             else {
@@ -239,17 +245,17 @@ function showCase(level) {
 
     //加入【详细】切换文字变化 --Findyou
     detail_class=document.getElementsByClassName('detail');
-	//console.log(detail_class.length)
-	if (level == 3) {
-		for (var i = 0; i < detail_class.length; i++){
-			detail_class[i].innerHTML="收起"
-		}
-	}
-	else{
-			for (var i = 0; i < detail_class.length; i++){
-			detail_class[i].innerHTML="详细"
-		}
-	}
+    //console.log(detail_class.length)
+    if (level == 3) {
+        for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="收起"
+        }
+    }
+    else{
+            for (var i = 0; i < detail_class.length; i++){
+            detail_class[i].innerHTML="详细"
+        }
+    }
 }
 
 function showClassDetail(cid, count) {
@@ -284,9 +290,9 @@ function showClassDetail(cid, count) {
 }
 
 function html_escape(s) {
-    s = s.replace(/&/g,'&amp;');
-    s = s.replace(/</g,'&lt;');
-    s = s.replace(/>/g,'&gt;');
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
     return s;
 }
 </script>
@@ -352,14 +358,18 @@ table       { font-size: 100%; }
     # ------------------------------------------------------------------------
     # Report
     #
-    # 汉化,加美化效果 --Findyou
+    # 汉化,加美化效果 --Yang Yao Jun
+    #
+    # 这里涉及到了 Bootstrap 前端技术，Bootstrap 按钮 资料介绍详见：http://www.runoob.com/bootstrap/bootstrap-buttons.html
+    #
     REPORT_TMPL = """
-<p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ %(passrate)s }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ %(fail)s }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ %(Pass)s }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ %(count)s }</a>
-</p>
+    <p id='show_detail_line'>
+    <a class="btn btn-primary" href='javascript:showCase(0)'>通过率 [%(passrate)s ]</a>
+    <a class="btn btn-success" href='javascript:showCase(2)'>通过[ %(Pass)s ]</a>
+    <a class="btn btn-warning" href='javascript:showCase(3)'>错误[ %(error)s ]</a>
+    <a class="btn btn-danger" href='javascript:showCase(1)'>失败[ %(fail)s ]</a>
+    <a class="btn btn-info" href='javascript:showCase(4)'>所有[ %(count)s ]</a>
+    </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
 <col align='left' />
@@ -373,8 +383,8 @@ table       { font-size: 100%; }
     <td>用例集/测试用例</td>
     <td>总计</td>
     <td>通过</td>
-    <td>失败</td>
     <td>错误</td>
+    <td>失败</td>
     <td>详细</td>
 </tr>
 %(test_list)s
@@ -382,8 +392,8 @@ table       { font-size: 100%; }
     <td>总计</td>
     <td>%(count)s</td>
     <td>%(Pass)s</td>
-    <td>%(fail)s</td>
     <td>%(error)s</td>
+    <td>%(fail)s</td>
     <td>通过率：%(passrate)s</td>
 </tr>
 </table>
@@ -394,8 +404,8 @@ table       { font-size: 100%; }
     <td>%(desc)s</td>
     <td class="text-center">%(count)s</td>
     <td class="text-center">%(Pass)s</td>
-    <td class="text-center">%(fail)s</td>
     <td class="text-center">%(error)s</td>
+    <td class="text-center">%(fail)s</td>
     <td class="text-center"><a href="javascript:showClassDetail('%(cid)s',%(count)s)" class="detail" id='%(cid)s'>详细</a></td>
 </tr>
 """ # variables: (style, desc, count, Pass, fail, error, cid)
@@ -411,7 +421,7 @@ table       { font-size: 100%; }
 
     <!-- 默认展开错误信息 -Findyou -->
     <button id='btn_%(tid)s' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_%(tid)s'>%(status)s</button>
-    <div id='div_%(tid)s' class="collapse in">
+    <div id='div_%(tid)s' class="collapse in" style='text-align: left; color:red;cursor:pointer'>
     <pre>
     %(script)s
     </pre>
@@ -436,7 +446,7 @@ table       { font-size: 100%; }
     # ENDING
     #
     # 增加返回顶部按钮  --Findyou
-    ENDING_TMPL = """<div id='ending'>&nbsp;</div>
+    ENDING_TMPL = """<div id='ending'> </div>
     <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
     <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
     </span></a></div>
@@ -744,10 +754,6 @@ class HTMLTestRunner(Template_mixin):
 
     def _generate_ending(self):
         return self.ENDING_TMPL
-
-    @classmethod
-    def HTMLTestRunner(cls, stream, title, description):
-        pass
 
 
 ##############################################################################
