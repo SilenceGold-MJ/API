@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
 
         #logger.info(data)
         PM=Merhod().merhod(data["url"],data["method"], data["param"], data["headers"],data["testname"])
-        print(PM)
+        #logger.info(PM)
 
         print('测试Excel名称：' + str(data["path_ex"]).split('\\')[-1])
         print('测试项名称：'+str(data["testname"]))

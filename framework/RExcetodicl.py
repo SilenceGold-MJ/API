@@ -1,5 +1,11 @@
 from openpyxl import load_workbook
 from framework.logger import Logger
+import configparser,os
+proDir = os.getcwd()
+configPath = os.path.join(proDir, "config\config.ini")
+cf = configparser.ConfigParser()
+cf.read(configPath,encoding="utf-8-sig")
+#print(cf.get("Data", "1")
 logger = Logger(logger="RWExcel").getlog()
 class RExcetodicl():
 
@@ -13,7 +19,7 @@ class RExcetodicl():
         datas=[]
         for b, e, c, a, d,f,g,h in zip(sheet1["B"][1:], sheet1["E"][1:], sheet1["C"][1:], sheet1["A"][1:],sheet1["D"][1:], sheet1["F"][1:],sheet1["G"][1:],sheet1["H"][1:]):
             data={
-                "url":c.value,
+                "url":'%s%s'%(cf.get("Data", "address"),c.value),
                 "param": f.value,
                 "method": d.value,
                 "headers": e.value,
@@ -23,6 +29,7 @@ class RExcetodicl():
                 "path_ex":path_ex,
                 "row":a.value,
             }
+            #logger.info(data)
             if data["case_class"]=="K":
                 datas.append(data)
 
@@ -32,7 +39,7 @@ class RExcetodicl():
         except Exception as e:
             logger.error(e)
             logger.error('保存失败，可能Excel文件未关闭，请关闭Excel文件后重新测试')
-
+        #logger.info(datas)
         return  {
                 "message": "ok",
                 "status": "1000",
