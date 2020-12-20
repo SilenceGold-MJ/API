@@ -6,7 +6,7 @@ proDir = os.getcwd()
 configPath = os.path.join(proDir, "config\config.ini")
 cf = configparser.ConfigParser()
 
-cf.read(configPath,encoding="utf-8-sig")
+cf.read(configPath)#encoding="utf-8-sig"
 #print(cf.get("Data", "1")
 logger = Logger(logger="RWExcel").getlog()
 class RExcetodicl():

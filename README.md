@@ -9,6 +9,13 @@ pip3 install requests
 pip3 install ddt  
 
 3.更新  
+
+2020-12-20更新  
+1.添加deleteq请求方式
+2.添加token获取保存至config
+2.tets_2代码中添加动态参数接口测试，静态参数在Excle中添加，tets_1运行测试
+
+
 2020-08-31更新  
 1.修改断言校验方式  
 2.添加请求方式post\get大小写兼容  

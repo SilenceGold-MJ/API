@@ -19,6 +19,12 @@ class Merhod():
                 #logger.info(APIdata)
                 return APIdata
                 #RequestAPI.writedata(API_data, expect, sheet1, row, testname)
+            elif method in ['delete','DELETE']:
+
+                APIdata=RequestAPI().API_delete(url, param.encode(),headers, testname)
+                #logger.info([testname,url, param,  APIdata])
+                #logger.info(APIdata)
+                return APIdata
 
         except Exception as e:
             #logger.error(e)

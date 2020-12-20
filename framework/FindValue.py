@@ -9,7 +9,7 @@ class FindValue():
                 yesOrno = True
                 break
         return (yesOrno)
-    def find_value(self,dir_data, fvalue):  #封装个在查字典中的查找value
+    def find_value(self,dir_data, fvalue):
         yesOrno = False
         if str(fvalue) in str(dir_data):
             yesOrno = True
