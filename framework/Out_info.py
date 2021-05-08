@@ -1,6 +1,7 @@
 #!/user/bin/env python3
 # -*- coding: utf-8 -*-
 from framework.logger import Logger
+import json
 
 logger = Logger(logger="Out").getlog()
 
@@ -10,7 +11,7 @@ class Out_info:
         print('测试项名称：' + str(data["testname"]))
         print('请求地址：' + (data["url"]))
         print('请求头：' + str(data["headers"]))
-        print('请求参数：' + str(data["param"]))
+        print('请求参数：' + json.dumps(data["param"]))
         print('请求方式：' + str(data["method"]))
         print('响应时间：' + str(data["time"]))
         print('响应码：' + str(data["Status_Code"]))

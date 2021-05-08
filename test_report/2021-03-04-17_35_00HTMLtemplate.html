@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>接口自动化测试报告</title>
+    <meta name="generator" content="HTMLTestRunner0.8.4"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 100%; }
+table       { font-size: 100%; }
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+    width: 50%;
+    height: 230px;
+    float: left;
+}
+.div_a {
+    height:250x;
+}
+.div_r {
+    width: 50%;
+    height:230px;
+    float: right;
+    margin-bottom: 1ex;
+    margin-top: 50px;
+}
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<div class='div_a'>
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">接口自动化测试报告</h1>
+<p class='attribute'><strong>测试人员 : </strong> mojin</p>
+<p class='attribute'><strong>开始时间 : </strong> 2021-03-04 17:35:00</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:12.760247</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 35，通过 35，通过率= 100.00%</p>
+
+<p class='description'>用例测试情况</p>
+</div>
+<div class="div_r">
+	<p>
+    <canvas id="canvas_circle"></canvas>
+</p>
+</div>
+</div>
+
+
+<p id='show_detail_line'>
+<a class="btn btn-primary" href='javascript:showCase(4)'>预览{ 100.00% }</a>
+<a class="btn btn-success" href='javascript:showCase(0)'>通过{ 35 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-warning" href='javascript:showCase(2)'>错误{ 0 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>全览{ 35 }</a>
+</p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center active" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>失败</td>
+    <td>错误</td>
+    <td>详细</td>
+</tr>
+
+<tr class='success'>
+    <td>test_1.Test</td>
+    <td class="text-center">11</td>
+    <td class="text-center">11</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',11)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_01</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_1: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：错误登录
+请求地址：http://***.***.****.***:9090/hyh/sys/login
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json'}
+请求参数：{"userName":"huangpeng001","password":"a1111s11"}
+请求方式：post
+响应时间：0.019961
+响应码：200
+响应报文：{"code":4015,"msg":"用户名或密码错误","msgEn":"Wrong user name or password","ext":"用户名或密码错误","data":null}
+断言关键字：用户名或密码错误
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_02</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_2: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：正常登录
+请求地址：http://***.***.****.***:9090/hyh/sys/login
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json'}
+请求参数：{"userName":"huangpeng004","password":"a111111"}
+请求方式：post
+响应时间：0.021854
+响应码：200
+响应报文：{"code":0,"msg":"成功","msgEn":"success","ext":null,"data":{"token":"web_token_098a58610cc30abd186afb8fe77aac5f","userId":22,"userName":"huangpeng004","userNo":null,"headImgUrl":"","loginType":null}}
+断言关键字：userName
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_03</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_3: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：查询个人信息
+请求地址：http://***.***.****.***:9090/hyh/sys/user/get/10
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json;charset=UTF-8'}
+请求参数：{}
+请求方式：get
+响应时间：0.049141
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': {'userId': 10, 'userNo': None, 'username': 'huangpeng', 'password': '', 'operatorId': None, 'salt': '', 'phone': '18392041214', 'email': '397135766@qq.com', 'company': '哈哈阿尔维尔多个多个多个多个地方尴尬', 'status': None, 'realname': '哈哈', 'isValid': None, 'created': '2020-12-04 16:30:51', 'updated': None, 'roleName': '系统管理员', 'headImageUrl': None, 'roleId': 1, 'userPers': [{'permissionId': 1, 'permission': 'vehicle_manage', 'permissionName': '检测设备', 'permissionUrl': None, 'isValid': 1, 'created': None, 'operatorId': None, 'updated': '2020-12-31 16:16:12'}, {'permissionId': 2, 'permission': 'tunnel_health_manage', 'permissionName': '隧道健康', 'permissionUrl': None, 'isValid': 1, 'created': None, 'operatorId': None, 'updated': '2020-12-17 18:01:45'}, {'permissionId': 3, 'permission': 'disease_distribution_manage', 'permissionName': '病害分布', 'permissionUrl': None, 'isValid': 1, 'created': None, 'operatorId': None, 'updated': '2020-12-17 18:02:36'}, {'permissionId': 4, 'permission': 'situation_awareness_manage', 'permissionName': '态势感知', 'permissionUrl': None, 'isValid': 1, 'created': None, 'operatorId': None, 'updated': '2020-12-17 18:03:17'}, {'permissionId': 5, 'permission': 'screen_control_manage', 'permissionName': '大屏控制', 'permissionUrl': None, 'isValid': 1, 'created': '2020-12-17 18:03:59', 'operatorId': None, 'updated': '2020-12-17 18:03:59'}, {'permissionId': 6, 'permission': 'system_manage', 'permissionName': '系统设置', 'permissionUrl': None, 'isValid': 1, 'created': '2020-12-17 18:04:40', 'operatorId': None, 'updated': '2020-12-17 18:04:40'}, {'permissionId': 7, 'permission': 'system_rule', 'permissionName': '规则匹配', 'permissionUrl': None, 'isValid': 1, 'created': '2020-12-30 17:54:41', 'operatorId': None, 'updated': '2020-12-30 17:54:56'}], 'perIds': None, 'tunnelId': None, 'userLine': {'tunnelId': 3, 'tunnelCode': '004', 'tunnelName': '青岛3号线上行', 'provinceCode': '370000', 'cityCode': '370200', 'provinceName': '山东', 'cityName': '青岛市', 'tunnelType': 'tunnel_type_3', 'tunnelTypeName': '铁路', 'geoTypeStr': 'saf ', 'buildTypeStr': '工法a', 'designSpeed': 888.0, 'tunnelLength': 132564.0, 'altitudeHight': 13.0, 'temperatureRang': '12313', 'rainRang': '132123', 'isValid': 1, 'tab': 'QD', 'operatorId': None, 'created': '2020-12-17 13:59:20', 'updated': '2021-01-06 16:30:14'}}}
+断言关键字：成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_04</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>通过</button>
+    <div id='div_pt1_4' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>通过</button>
+    <div id='div_pt1_4' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_4: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：获取健康状态列表
+请求地址：http://***.***.****.***:9090/hyh/sys/code/listHealthStatus
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json;charset=UTF-8'}
+请求参数：{}
+请求方式：get
+响应时间：0.024273
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': [{'code': 'normal', 'name': '正常', 'num': '1', 'orderNum': None, 'remark': None, 'isValid': 1, 'created': '2020-11-19 19:51:07', 'updated': '2020-11-19 19:54:35', 'operatorId': None, 'pcode': 'car_health_status'}, {'code': 'un_normal', 'name': '故障', 'num': '-1', 'orderNum': None, 'remark': None, 'isValid': 1, 'created': '2020-11-19 19:52:52', 'updated': '2020-12-01 16:47:20', 'operatorId': None, 'pcode': 'car_health_status'}]}
+断言关键字：故障
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_05</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_5' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_5'>通过</button>
+    <div id='div_pt1_5' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_5' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_5'>通过</button>
+    <div id='div_pt1_5' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_5: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：获取工作状态列表
+请求地址：http://***.***.****.***:9090/hyh/sys/code/listWorkState
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json;charset=UTF-8'}
+请求参数：{}
+请求方式：get
+响应时间：0.024499
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': [{'code': 'normal', 'name': '转运', 'num': '1', 'orderNum': None, 'remark': None, 'isValid': 1, 'created': '2020-11-19 19:55:10', 'updated': '2020-12-10 09:50:51', 'operatorId': None, 'pcode': 'car_work_state'}, {'code': 'unnormal', 'name': '闲置', 'num': '-1', 'orderNum': None, 'remark': None, 'isValid': 1, 'created': '2020-11-19 19:55:49', 'updated': '2020-12-01 16:51:43', 'operatorId': None, 'pcode': 'car_work_state'}, {'code': 'worknormal', 'name': '采集', 'num': '2', 'orderNum': None, 'remark': None, 'isValid': 1, 'created': '2020-11-19 19:55:49', 'updated': '2020-12-01 16:52:36', 'operatorId': None, 'pcode': 'car_work_state'}]}
+断言关键字：闲置
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_06</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_6' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_6'>通过</button>
+    <div id='div_pt1_6' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_6' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_6'>通过</button>
+    <div id='div_pt1_6' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_6: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：获取地区车数量信息
+请求地址：http://***.***.****.***:9090/hyh/vehicle/sytCarStatistics/listProvinceCar
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json;charset=UTF-8'}
+请求参数：{}
+请求方式：get
+响应时间：0.055001
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': [{'provinceCode': '370000', 'provinceName': '山东', 'carCount': 4}, {'provinceCode': '420000', 'provinceName': '湖北', 'carCount': 24}, {'provinceCode': '440000', 'provinceName': '广东', 'carCount': 21}, {'provinceCode': '610000', 'provinceName': '陕西', 'carCount': 41}]}
+断言关键字：成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_07</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_7' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_7'>通过</button>
+    <div id='div_pt1_7' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_7' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_7'>通过</button>
+    <div id='div_pt1_7' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_7: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：获取车辆信息
+请求地址：http://***.***.****.***:9090/hyh/vehicle/sytCarStatistics/defaultCarInfo
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json;charset=UTF-8'}
+请求参数：{}
+请求方式：get
+响应时间：0.098047
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': {'carInfo': {'carId': 35, 'carCode': '检查004号车', 'carType': '铁路', 'carName': '检查004号车', 'provinceCode': '610000', 'cityCode': '610100', 'workState': 1, 'healthStatus': 1, 'companyId': 5, 'currentLocation': '西安', 'travelSpeed': 34.0, 'collectMileage': 92.0, 'useElectricity': 67.0, 'electricityEndurance': 83.0, 'useDisk': 12.0, 'diskEndurance': 65.0, 'usePowerWaste': 14.0, 'availableSlipRing': 86.0, 'isValid': 1, 'operatorId': 10, 'created': '2020-12-02 12:17:37', 'updated': '2020-12-10 10:55:24', 'abilityNames': None, 'normalDeviceNames': None, 'unNormalDeviceNames': None, 'companyName': '西安火眼猴公司1', 'provinceName': '陕西'}, 'abilityList': ['裂缝', '渗水', '剥落', '空鼓', '隧道三维', '轨道', '轨道扣件'], 'normalDeviceList': [], 'unNormalDeviceList': []}}
+断言关键字：成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_08</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_8' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_8'>通过</button>
+    <div id='div_pt1_8' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_8' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_8'>通过</button>
+    <div id='div_pt1_8' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_8: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：获取陕西省下车辆统计数
+请求地址：http://***.***.****.***:9090/hyh/vehicle/sytCarStatistics/listCityCar?provinceCode=610000
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json;charset=UTF-8'}
+请求参数：{}
+请求方式：get
+响应时间：0.028698
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': [{'cityCode': '610100', 'cityName': '西安市', 'carCount': 18}, {'cityCode': '610300', 'cityName': '宝鸡市', 'carCount': 23}]}
+断言关键字：carCount
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_09</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_9' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_9'>通过</button>
+    <div id='div_pt1_9' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_9' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_9'>通过</button>
+    <div id='div_pt1_9' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_9: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：获取西安市下车辆列表
+请求地址：http://***.***.****.***:9090/hyh/vehicle/sytCarStatistics/listStatisticsCar?provinceCode=610000&amp;cityCode=610100
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json;charset=UTF-8'}
+请求参数：{}
+请求方式：get
+响应时间：0.078985
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': {'firstCarInfo': {'carInfo': {'carId': 35, 'carCode': '检查004号车', 'carType': '铁路', 'carName': '检查004号车', 'provinceCode': '610000', 'cityCode': '610100', 'workState': 1, 'healthStatus': 1, 'companyId': 5, 'currentLocation': '西安', 'travelSpeed': 34.0, 'collectMileage': 92.0, 'useElectricity': 67.0, 'electricityEndurance': 83.0, 'useDisk': 12.0, 'diskEndurance': 65.0, 'usePowerWaste': 14.0, 'availableSlipRing': 86.0, 'isValid': 1, 'operatorId': 10, 'created': '2020-12-02 12:17:37', 'updated': '2020-12-10 10:55:24', 'abilityNames': None, 'normalDeviceNames': None, 'unNormalDeviceNames': None, 'companyName': '西安火眼猴公司1', 'provinceName': '陕西'}, 'abilityList': ['裂缝', '渗水', '剥落', '空鼓', '隧道三维', '轨道', '轨道扣件'], 'normalDeviceList': [], 'unNormalDeviceList': []}, 'carList': [{'carId': 35, 'healthStatus': 1}, {'carId': 36, 'healthStatus': -1}, {'carId': 39, 'healthStatus': 1}, {'carId': 42, 'healthStatus': 1}, {'carId': 44, 'healthStatus': 1}, {'carId': 46, 'healthStatus': 1}, {'carId': 48, 'healthStatus': 1}, {'carId': 49, 'healthStatus': 1}, {'carId': 50, 'healthStatus': 1}, {'carId': 51, 'healthStatus': 1}, {'carId': 52, 'healthStatus': 1}, {'carId': 53, 'healthStatus': 1}, {'carId': 54, 'healthStatus': 1}, {'carId': 55, 'healthStatus': 1}, {'carId': 123, 'healthStatus': 1}, {'carId': 181, 'healthStatus': 1}, {'carId': 182, 'healthStatus': 1}, {'carId': 192, 'healthStatus': 1}]}}
+断言关键字：carList
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_10</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_10' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_10'>通过</button>
+    <div id='div_pt1_10' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_10' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_10'>通过</button>
+    <div id='div_pt1_10' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_10: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：选择某个车辆查看信息
+请求地址：http://***.***.****.***:9090/hyh/vehicle/sytCarStatistics/carDetail/44?carId=44
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json;charset=UTF-8'}
+请求参数：{}
+请求方式：get
+响应时间：0.073061
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': {'carInfo': {'carId': 44, 'carCode': '检查00103号车', 'carType': '铁路', 'carName': '检查00103号车', 'provinceCode': '610000', 'cityCode': '610100', 'workState': 1, 'healthStatus': 1, 'companyId': 5, 'currentLocation': '西安', 'travelSpeed': 80.0, 'collectMileage': 94.0, 'useElectricity': 34.0, 'electricityEndurance': 36.0, 'useDisk': 99.0, 'diskEndurance': 2.0, 'usePowerWaste': 25.0, 'availableSlipRing': 55.0, 'isValid': 1, 'operatorId': 10, 'created': '2020-12-10 11:32:20', 'updated': '2020-12-23 10:33:10', 'abilityNames': None, 'normalDeviceNames': None, 'unNormalDeviceNames': None, 'companyName': '西安火眼猴公司1', 'provinceName': '陕西'}, 'abilityList': ['裂缝', '渗水', '剥落', '空鼓', '隧道三维', '轨道', '轨道扣件'], 'normalDeviceList': [], 'unNormalDeviceList': []}}
+断言关键字：'carId': 44
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_11' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_1_11</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt1_11' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_11'>通过</button>
+    <div id='div_pt1_11' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt1_11' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt1_11'>通过</button>
+    <div id='div_pt1_11' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt1_11: ----------SetUp -----
+
+测试Excel名称：大数据接口测试.xlsx
+测试项名称：查看车辆的分布地区
+请求地址：http://***.***.****.***:9090/hyh/vehicle/sytcarinfo/listProvinceCity
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549', 'Content-Type': 'application/json'}
+请求参数：{}
+请求方式：post
+响应时间：0.045277
+响应码：200
+响应报文：{"code":0,"msg":"成功","msgEn":"success","ext":null,"data":[{"provinceCode":"370000","provinceName":"山东","cityList":[{"cityCode":"370200","cityName":"青岛市"}]},{"provinceCode":"420000","provinceName":"湖北","cityList":[{"cityCode":"420100","cityName":"武汉市"}]},{"provinceCode":"440000","provinceName":"广东","cityList":[{"cityCode":"440100","cityName":"广州市"},{"cityCode":"440300","cityName":"深圳市"}]},{"provinceCode":"450000","provinceName":"广西","cityList":[{"cityCode":"450200","cityName":"柳州市"}]},{"provinceCode":"610000","provinceName":"陕西","cityList":[{"cityCode":"610100","cityName":"西安市"},{"cityCode":"610300","cityName":"宝鸡市"}]},{"provinceCode":"820000","provinceName":"澳门","cityList":[{"cityCode":"820300","cityName":"路环岛"}]}]}
+断言关键字：成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='success'>
+    <td>test_2.Test</td>
+    <td class="text-center">24</td>
+    <td class="text-center">24</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',24)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_001</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_1' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_1' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_1'>通过</button>
+    <div id='div_pt2_1' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_1: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：新增车辆
+请求地址：http://***.***.****.***:9090/hyh/vehicle/sytcarinfo/add
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"carName": "tets1", "carCode": "tets1", "companyId": 2, "carType": "railway", "currentLocation": "tets1"}
+请求方式：POST
+响应时间：0.100003
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '保存成功', 'data': True}
+断言关键字：保存成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_002</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_2' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_2' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
+    <div id='div_pt2_2' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_2: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：删除车辆
+请求地址：http://***.***.****.***:9090/hyh/vehicle/sytcarinfo/del/230
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{}
+请求方式：DELETE
+响应时间：0.090479
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '删除成功', 'data': True}
+断言关键字：删除成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_003</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_3' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_3'>通过</button>
+    <div id='div_pt2_3' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_3' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_3'>通过</button>
+    <div id='div_pt2_3' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_3: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：编辑车辆
+请求地址：http://***.***.****.***:9090/hyh/vehicle/sytcarinfo/edit
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"carId": 111, "carCode": "00170", "carType": "railway", "carName": "\u68c0\u67e500170\u53f7\u8f66", "provinceCode": "610000", "cityCode": "610300", "workState": 1, "healthStatus": 1, "companyId": 14, "currentLocation": "\u5b9d\u9e21", "travelSpeed": 6.0, "collectMileage": 25.0, "useElectricity": 26.0, "electricityEndurance": 91.0, "useDisk": 17.0, "diskEndurance": 94.0, "usePowerWaste": 4.0, "availableSlipRing": 26.0, "isValid": 1, "operatorId": 49, "created": "2020-12-10 12:00:41", "updated": "2020-12-31 16:26:58", "abilityNames": "\u88c2\u7f1d,\u6e17\u6c34,\u5265\u843d,\u7a7a\u9f13,\u96a7\u9053\u4e09\u7ef4,\u8f68\u9053,\u8f68\u9053\u6263\u4ef6", "normalDeviceNames": null, "unNormalDeviceNames": null, "companyName": "\u5b9d\u9e21\u5206\u516c\u53f8", "provinceName": "\u9655\u897f"}
+请求方式：PUT
+响应时间：0.06467
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '修改成功', 'data': True}
+断言关键字：修改成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_050</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_4' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_4'>通过</button>
+    <div id='div_pt2_4' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_4' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_4'>通过</button>
+    <div id='div_pt2_4' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_4: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：获取ws地址
+请求地址：http://***.***.****.***:9090/hyh/sys/user/getSocketUrl/17
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"carName": "tets1", "carCode": "tets1", "companyId": 2, "carType": "railway", "currentLocation": "tets1"}
+请求方式：GET
+响应时间：0.033377
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': 'ws://***.***.****.***:8088/ws/screen/g2ezrimjy0jx00u9r5'}
+断言关键字：//***.***.****.***
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_051</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_5' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_5'>通过</button>
+    <div id='div_pt2_5' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_5' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_5'>通过</button>
+    <div id='div_pt2_5' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_5: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：新增报表
+请求地址：http://***.***.****.***:9090/hyh/report/syt/add
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"diseaseTypeList": ["disease_type_spalling", "disease_type_leak_water", "disease_type_crackle", "radar_disease_type_3", "radar_disease_type_4", "radar_disease_type_1", "radar_disease_type_2"], "periodId": 1, "stageId": 1, "tunnelId": 1}
+请求方式：POST
+响应时间：4.590882
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': True}
+断言关键字：成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_052</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_6' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_6'>通过</button>
+    <div id='div_pt2_6' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_6' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_6'>通过</button>
+    <div id='div_pt2_6' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_6: ----------SetUp -----
+
+测试项目：大数据项目
+测试项：查看下载Excle
+下载地址：http://***.***.****.***:8099/fhyhf/excel/1/1/2021/03/BG-HFH6IU4EEI4XUGSUXJH6R85EL.xlsx
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_053</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_7' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_7'>通过</button>
+    <div id='div_pt2_7' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_7' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_7'>通过</button>
+    <div id='div_pt2_7' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_7: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：删除报表
+请求地址：http://***.***.****.***:9090/hyh/report/syt/del/147
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{}
+请求方式：DELETE
+响应时间：0.042431
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '删除成功', 'data': True}
+断言关键字：删除成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_060</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_8' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_8'>通过</button>
+    <div id='div_pt2_8' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_8' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_8'>通过</button>
+    <div id='div_pt2_8' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_8: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：新增人员
+请求地址：http://***.***.****.***:9090/hyh/sys/user/add
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"username": "huangpeng110", "password": "a111111", "realname": "hp", "company": "\u5355\u4f4d\u5355\u4f4d\u5355\u4f4d", "phone": "18392040001", "email": "397135001@qq.com", "roleId": 1, "tunnelId": 1, "perIds": [1, 2, 3, 4, 5, 6]}
+请求方式：POST
+响应时间：0.156012
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': True}
+断言关键字：成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_062</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_9' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_9'>通过</button>
+    <div id='div_pt2_9' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_9' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_9'>通过</button>
+    <div id='div_pt2_9' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_9: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：编辑人员
+请求地址：http://***.***.****.***:9090/hyh/sys/user/edit
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"userId": 120, "userNo": null, "username": "huangpeng110", "password": "", "operatorId": null, "salt": "", "phone": "18392040001", "email": "397135001@qq.com", "company": "\u5355\u4f4d\u5355\u4f4d\u5355\u4f4d", "status": null, "realname": "hp", "isValid": null, "created": "2021-03-04 17:35:07", "updated": null, "roleName": "\u7cfb\u7edf\u7ba1\u7406\u5458", "headImageUrl": null, "roleId": 1, "perIds": [1, 2, 3, 4, 5, 6], "tunnelId": 1}
+请求方式：POST
+响应时间：0.134127
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': True}
+断言关键字：成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_063</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_10' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_10'>通过</button>
+    <div id='div_pt2_10' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_10' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_10'>通过</button>
+    <div id='div_pt2_10' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_10: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：删除人员
+请求地址：http://***.***.****.***:9090/hyh/sys/user/del/120
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{}
+请求方式：DELETE
+响应时间：0.073671
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '删除成功', 'data': True}
+断言关键字：删除成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_11' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_064</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_11' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_11'>通过</button>
+    <div id='div_pt2_11' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_11' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_11'>通过</button>
+    <div id='div_pt2_11' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_11: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：新增隧道
+请求地址：http://***.***.****.***:9090/hyh/tunnel/sytline/add
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"altitudeHight": "2000", "buildTypeStr": "\u6cb3\u5317\u5730\u94c1", "designSpeed": "2365", "geoTypeStr": "\u6cb3\u5317\u5730\u94c1", "rainRang": "5000", "temperatureRang": "30", "tunnelLength": "23546", "tunnelName": "\u6cb3\u5317\u5730\u94c1", "provinceCode": "130000", "cityCode": "130100", "tunnelType": "tunnel_type_1"}
+请求方式：POST
+响应时间：0.098311
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '保存成功', 'data': True}
+断言关键字：保存成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_12' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_064_01</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_12' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_12'>通过</button>
+    <div id='div_pt2_12' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_12' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_12'>通过</button>
+    <div id='div_pt2_12' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_12: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：编辑隧道
+请求地址：http://***.***.****.***:9090/hyh/tunnel/sytline/edit
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"tunnelId": 50, "tunnelCode": null, "tunnelName": "\u6cb3\u5317\u5730\u94c1", "provinceCode": "130000", "cityCode": "130100", "provinceName": "\u6cb3\u5317", "cityName": "\u77f3\u5bb6\u5e84\u5e02", "tunnelType": "tunnel_type_1", "tunnelTypeName": "\u5730\u94c1", "geoTypeStr": "\u6cb3\u5317\u5730\u94c1", "buildTypeStr": "\u6cb3\u5317\u5730\u94c1", "designSpeed": 2365.0, "tunnelLength": 23546.0, "altitudeHight": 2000.0, "temperatureRang": "30", "rainRang": "5000", "isValid": 1, "tab": null, "operatorId": null, "created": "2021-03-04 17:35:08", "updated": "2021-03-04 17:35:08"}
+请求方式：POST
+响应时间：0.084717
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '修改成功', 'data': True}
+断言关键字：修改成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_13' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_065</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_13' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_13'>通过</button>
+    <div id='div_pt2_13' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_13' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_13'>通过</button>
+    <div id='div_pt2_13' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_13: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：删除隧道
+请求地址：http://***.***.****.***:9090/hyh/tunnel/sytline/del?tunnelId=50
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{}
+请求方式：DELETE
+响应时间：0.068967
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '删除成功', 'data': True}
+断言关键字：删除成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_14' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_070_01</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_14' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_14'>通过</button>
+    <div id='div_pt2_14' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_14' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_14'>通过</button>
+    <div id='div_pt2_14' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_14: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：编辑病害等级
+请求地址：http://***.***.****.***:9090/hyh/tunnel/sytgrade/edit
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"gradeId": 245, "uniqueNo": null, "gradeCode": "disease_grade_1", "gradeName": "\u4e00\u7ea7", "geoName": "\u6e7f\u9677\u6027\u9ec4\u571f", "geoType": "geo_type_wet", "crackleUp": 0.001, "crackleDown": 0.0, "spallingUp": 0.001, "spallingDown": 0.0, "seepageUp": 0.001, "seepageDown": 0.0, "isValid": 1, "isDel": null, "gradeDesc": "411414", "operatorId": null, "created": "2021-03-04 17:34:46", "updated": "2021-03-04 17:34:46"}
+请求方式：POST
+响应时间：0.446933
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '修改成功', 'data': True}
+断言关键字：修改成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_15' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_080_01</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_15' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_15'>通过</button>
+    <div id='div_pt2_15' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_15' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_15'>通过</button>
+    <div id='div_pt2_15' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_15: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：编辑工程阶段
+请求地址：http://***.***.****.***:9090/hyh/tunnel/sytstage/edit
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"stageId": 2, "stageName": "\u8fd0\u8425\u671f", "tunnelId": 3}
+请求方式：POST
+响应时间：0.054697
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '修改成功', 'data': True}
+断言关键字：修改成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_16' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_082</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_16' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_16'>通过</button>
+    <div id='div_pt2_16' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_16' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_16'>通过</button>
+    <div id='div_pt2_16' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_16: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：新增使用单位
+请求地址：http://***.***.****.***:9090/hyh/tunnel/sytcompany/add
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"provinceCode": "610000", "cityCode": "610300", "companyName": "\u897f\u5b89\u94c1\u8def\u5b9d\u9e21\u5206\u5c40_tets001"}
+请求方式：POST
+响应时间：0.073465
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '保存成功', 'data': True}
+断言关键字：保存成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_17' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_082_01</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_17' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_17'>通过</button>
+    <div id='div_pt2_17' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_17' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_17'>通过</button>
+    <div id='div_pt2_17' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_17: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：编辑使用单位
+请求地址：http://***.***.****.***:9090/hyh/tunnel/sytcompany/edit
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"companyId": 2, "companyName": "\u6b66\u6c49\u5e02\u706b\u773c\u73342", "provinceCode": "420000", "cityCode": "420100", "provinceName": "\u6e56\u5317", "cityName": "\u6b66\u6c49\u5e02", "isValid": 1, "operatorId": null, "created": "2020-11-18 23:49:15", "updated": "2020-11-19 22:00:14"}
+请求方式：POST
+响应时间：0.096771
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '修改成功', 'data': True}
+断言关键字：修改成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_18' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_083</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_18' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_18'>通过</button>
+    <div id='div_pt2_18' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_18' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_18'>通过</button>
+    <div id='div_pt2_18' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_18: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：删除使用单位
+请求地址：http://***.***.****.***:9090/hyh/tunnel/sytcompany/del/86
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{}
+请求方式：DELETE
+响应时间：0.076357
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '删除成功', 'data': True}
+断言关键字：删除成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_19' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_084_01</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_19' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_19'>通过</button>
+    <div id='div_pt2_19' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_19' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_19'>通过</button>
+    <div id='div_pt2_19' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_19: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：编辑规则
+请求地址：http://***.***.****.***:9090/hyh/tunnel/sytalarmrule/edit
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"alarmRuleId": 49, "ruleCode": null, "ruleName": "\u5265\u843d\u544a\u8b66\u89c4\u5219", "diseaseType": "disease_type_spalling", "diseaseTypeName": "\u5265\u843d", "alarmType": "alarm_rule_type_2", "alarmTypeName": "\u75c5\u5bb3\u5c3a\u5bf8", "gradeId": 179, "gradeCodeName": "\u4e94\u7ea7", "gradeGeoName": "\u901a\u7528", "sizeUp": 200.0, "ziseDown": 0.1, "changeRateUp": 56.0, "changeRateDowm": 23.0, "isValid": 1, "operatorId": null, "created": "2021-01-06 09:49:46", "updated": "2021-01-06 09:49:46", "sytGrade": null}
+请求方式：POST
+响应时间：0.07852
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': '修改成功', 'data': True}
+断言关键字：修改成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_20' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_086</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_20' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_20'>通过</button>
+    <div id='div_pt2_20' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_20' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_20'>通过</button>
+    <div id='div_pt2_20' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_20: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：文件地址检查
+请求地址：http://***.***.****.***:9090/hyh/sys/config/findFileUrl
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{}
+请求方式：GET
+响应时间：0.01692
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': {'httpExcelUrl': 'http://***.***.****.***:8099/fhyhf/', 'httpFileUrl': 'http://***.***.****.***:8099/fhyhf/'}}
+断言关键字：//***.***.****.***
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_21' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_087</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_21' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_21'>通过</button>
+    <div id='div_pt2_21' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_21' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_21'>通过</button>
+    <div id='div_pt2_21' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_21: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：Excle地址检查
+请求地址：http://***.***.****.***:9090/hyh/sys/config/findFileUrl
+请求头：{'Content-Type': 'application/json', 'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{}
+请求方式：GET
+响应时间：0.015682
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': {'httpExcelUrl': 'http://***.***.****.***:8099/fhyhf/', 'httpFileUrl': 'http://***.***.****.***:8099/fhyhf/'}}
+断言关键字：//***.***.****.***
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_22' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_088_01</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_22' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_22'>通过</button>
+    <div id='div_pt2_22' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_22' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_22'>通过</button>
+    <div id='div_pt2_22' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_22: ----------SetUp -----
+
+测试项目：大数据项目
+测试项名称：上传病害word文件
+请求地址：http://***.***.****.***:9090/hyh/diseaseRecord/diseaseUploadProcFile
+请求头：{'token': 'web_token_50facfce9340dd8e40df0beb7f148549'}
+请求参数：{"diseaseRecordId": 1214}
+请求方式：POST
+响应时间：0.064014
+响应码：200
+响应报文：{'code': 0, 'msg': '成功', 'msgEn': 'success', 'ext': None, 'data': 'diseasefile/1214/2021/03/20210304173510443824.docx'}
+断言关键字：成功
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_23' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_088_02</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_23' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_23'>通过</button>
+    <div id='div_pt2_23' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_23' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_23'>通过</button>
+    <div id='div_pt2_23' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_23: ----------SetUp -----
+
+测试项目：大数据项目
+测试项：下载病害word文件
+下载地址：http://***.***.****.***:8099/fhyhf/diseasefile/1214/2021/03/20210304173510443824.docx
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt2_24' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_088_03</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起output信息 -Findyou
+    <button id='btn_pt2_24' type="button"  class="btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_24'>通过</button>
+    <div id='div_pt2_24' class="collapse">  -->
+    <!-- 默认展开output信息 -Findyou -->
+    <button id='btn_pt2_24' type="button"  class="btn-xs" data-toggle="collapse" data-target='#div_pt2_24'>通过</button>
+    <div id='div_pt2_24' class="collapse in">
+    <pre style="text-align:left; ">
+    
+pt2_24: ----------SetUp -----
+
+测试项目：大数据项目
+测试项：查看病害图片
+下载地址：http://***.***.****.***:8099/fhyhf/54/55/1214.png
+-----------TearDown----
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center info">
+    <td>总计</td>
+    <td>35</td>
+    <td>35</td>
+    <td>0</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
+</tr>
+</table>
+
+<div id='ending'> </div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+<script language="javascript" type="text/javascript">
+output_list = Array();
+// 修改按钮颜色显示错误问题 --Findyou v0.8.2.3
+$("button[id^='btn_pt']").addClass("btn btn-success");
+$("button[id^='btn_ft']").addClass("btn btn-danger");
+$("button[id^='btn_et']").addClass("btn btn-warning");
+/*level
+增加分类并调整，增加error按钮事件 --Findyou v0.8.2.3
+0:Pass    //pt none, ft hiddenRow, et hiddenRow
+1:Failed  //pt hiddenRow, ft none, et hiddenRow
+2:Error    //pt hiddenRow, ft hiddenRow, et none
+3:All     //pt none, ft none, et none
+4:Summary //all hiddenRow
+*/
+//add Error button event --Findyou v0.8.2.3
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 0 || level == 2 || level == 4 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level == 1 || level == 2 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'et') {
+            if (level == 0 || level == 1 || level == 4) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+//add Error button event --Findyou v0.8.2.3
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        if (!tr) {
+            tid = 'e' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&');
+    s = s.replace(/</g,'<');
+    s = s.replace(/>/g,'>');
+    return s;
+}
+//添加圆饼图  zl    2018.7.23
+function drawCircle(canvasId, data_arr, color_arr, text_arr) {
+     var c = document.getElementById(canvasId);
+     var ctx = c.getContext("2d");
+     var radius = c.height / 2 - 20; //半径  
+     var ox = radius + 20,
+         oy = radius + 20; //圆心  
+     var width = 10,
+         height = 10; //图例宽和高  
+     var posX = ox * 2 + 20,
+         posY = 30; //  
+     var textX = posX + width + 5,
+         textY = posY + 10;
+     var startAngle = 0; //起始弧度  
+     var endAngle = 0; //结束弧度  
+     for (var i = 0; i < data_arr.length; i++) {
+         //绘制饼图  
+         endAngle = endAngle + data_arr[i] * Math.PI * 2; //结束弧度  
+         ctx.fillStyle = color_arr[i];
+         ctx.beginPath();
+         ctx.moveTo(ox, oy); //移动到到圆心  
+         ctx.arc(ox, oy, radius, startAngle, endAngle, false);
+         ctx.closePath();
+         ctx.fill();
+         startAngle = endAngle; //设置起始弧度  
+         //绘制比例图及文字  
+         ctx.fillStyle = color_arr[i];
+         ctx.fillRect(posX, posY + 30 * i, width, height);
+         ctx.moveTo(posX, posY + 30 * i);
+         ctx.font = 'bold 15px 微软雅黑'; //斜体 30像素 微软雅黑字体  
+         ctx.fillStyle = color_arr[i]; //"#000000";  
+         var percent = text_arr[i] + "：" + (100 * data_arr[i]).toFixed(2) + " %";
+         ctx.fillText(percent, textX, textY + 30 * i);
+     }
+ }
+
+function init() {
+     var text_arr = ["通过", "失败", "错误"];
+     var color_arr = ["#5CB85C","#D2322D", "#F0AD4E"];
+     var data_arr = [1.0,0.0,0.0];
+     drawCircle("canvas_circle", data_arr, color_arr, text_arr);
+ }
+
+ window.onload = init;
+ 
+</script>
+</body>
+</html>

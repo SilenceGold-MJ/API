@@ -158,6 +158,40 @@ class RequestAPI():
 
             # logger.info("dic:%s"%dic)
         return dic
+    def API_post_code_upload(self,path, dic_data,filepath,token):#二进制上传
+        url='%s%s'%(cf.get("Data", "address"),path)#无前缀读取配置文件添加前缀
+        headers={"token":token}
+        # 要上传的文件
+        files = {'file': open(filepath, 'rb')}
+
+        try:
+
+            r = requests.post(url, dic_data, files=files, headers=headers)
+            dic = {
+                'param': dic_data,
+                "time": r.elapsed.total_seconds(),
+                "headers": headers,
+                "url":url,
+                "Status_Code": r.status_code,
+                "Response_Data": json.loads(r.text),
+                "method":"POST"
+            }
+            # logger.info("dic:%s"%dic)
+        except requests.RequestException as e:
+
+            dic = {
+                'param': dic_data,
+                "time": 'error',
+                "headers": headers,
+                "url": url,
+                "Status_Code": 500,
+                "Response_Data": e,
+                "method": "POST"
+            }
+
+            # logger.info("dic:%s"%dic)
+        return dic
+
     def API_get_code(self, path, param,token):
         url='%s%s'%(cf.get("Data", "address"),path)#无前缀读取配置文件添加前缀
         headers={'Content-Type': 'application/json',"token":token}
@@ -214,6 +248,35 @@ class RequestAPI():
                 "Status_Code": 500,
                 "Response_Data": e,
                 "method": "DELETE"
+            }
+
+            # logger.info("dic:%s"%dic)
+        return dic
+    def API_put_code(self,path, param,token):
+        url='%s%s'%(cf.get("Data", "address"),path)#无前缀读取配置文件添加前缀
+        headers={'Content-Type': 'application/json',"token":token}
+        try:
+            r = requests.request("PUT", url, headers=headers, data=json.dumps(param))
+            dic = {
+                'param': param,
+                "time": r.elapsed.total_seconds(),
+                "headers": headers,
+                "url":url,
+                "Status_Code": r.status_code,
+                "Response_Data": json.loads(r.text),
+                "method":"PUT"
+            }
+            # logger.info("dic:%s"%dic)
+        except requests.RequestException as e:
+
+            dic = {
+                'param': param,
+                "time": 'error',
+                "headers": headers,
+                "url": url,
+                "Status_Code": 500,
+                "Response_Data": e,
+                "method": "PUT"
             }
 
             # logger.info("dic:%s"%dic)
